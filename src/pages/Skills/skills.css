@@ -1,0 +1,27 @@
+h3 {
+  color: #fff;
+}
+#cardImage {
+  width: 120px;
+}
+.card {
+  height: 150px !important;
+  margin: 0 0 15px 15px;
+}
+h2,
+h4 {
+  color: black;
+}
+
+.titleOfCard {
+  position: absolute !important;
+  bottom: 5px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  text-align: center;
+  right: 3px;
+  font-style: italic;
+}
+img {
+  margin: auto;
+}
