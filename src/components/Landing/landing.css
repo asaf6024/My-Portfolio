@@ -1,0 +1,45 @@
+.landingDiv {
+  min-height: 100vh;
+}
+.landingImg {
+  width: 300px !important;
+  height: inherit;
+  float: right;
+}
+img.col-md-6.col-sm-12.landingImg {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+}
+.col-sm-12.landingContent {
+  position: absolute;
+  top: 40%;
+  margin: -25px 0 0 -25px;
+}
+.landingContent {
+  position: relative;
+  text-align: center;
+}
+#arrowDownA {
+  margin: auto;
+  text-align: center;
+  margin-top: 45%;
+}
+#arrowDownA i {
+  color: white;
+  font-size: xx-large;
+}
+.bounce {
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
+}
+@media only screen and (max-width: 600px) {
+  .col-sm-12.landingContent,
+  img.col-md-6.col-sm-12.landingImg {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+}

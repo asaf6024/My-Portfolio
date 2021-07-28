@@ -1,0 +1,15 @@
+.footer {
+  /* background-color: #ff8700; */
+  background-color: #2a4776;
+
+  height: 120px;
+}
+.footer p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}

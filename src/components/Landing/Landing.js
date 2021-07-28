@@ -1,0 +1,30 @@
+import { MDBRow, MDBAnimation } from "mdbreact"
+import './landing.css'
+const Landing = () => {
+    return (
+        <div className='container-fluid landingDiv'>
+            <div className='container'>
+                <MDBAnimation type="fadeIn" delay=".5s" className="text-center">
+                    <MDBRow>
+                        <div className='col-md-6 col-sm-12 landingContent'>
+                            <p style={{ fontSize: '20pt' }}> Hi, I'm Asaf !<br />
+                                I'm a <b>Front End Developer</b> who specified in <br />
+                                <span className='font-italic'>React, JavaScript, Css</span> and more..<br />
+                                More details about my Experience, Websites and Skiils below
+                            </p>
+                        </div>
+                        <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.jpeg" />
+                        <MDBAnimation type="fadeIn" delay=".8s" className="text-center" id="arrowDownA">
+                            <a href="#experience">
+                                <i className="arrow bounce text-center fas fa-angle-down"></i>
+                            </a>
+                        </MDBAnimation>
+                    </MDBRow>
+                </MDBAnimation>
+
+            </div>
+
+        </div>
+    )
+}
+export default Landing

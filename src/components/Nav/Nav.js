@@ -1,26 +1,37 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import './nav.css'
 const NavPage = () => {
+    const [active, setACtive] = useState('activeLink')
+    const setActive = (e) => {
+
+        document.querySelectorAll('.activeLink').forEach(e => e.classList.remove('activeLink'));
+        e.target.classList.add('activeLink')
+        setACtive('')
+    }
+
     return (
         <Navbar variant="dark" bg="dark" expand="lg" className='col-sm-12'>
             {/* <Container > */}
             {/* <Navbar.Brand href="/" className='col-sm-1'>My Portfolio</Navbar.Brand> */}
             <Navbar.Brand href="/" className='col-sm-1'>Asaf Almog</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-dark-example" />
-            <Navbar.Collapse id="navbar-dark-example" className='col-sm-8 text-center'>
+            <Navbar.Collapse id="navbar-dark-example" className='col-sm-9 text-center'>
                 <Nav >
-                    <NavItem>
+                    <NavItem className={active} onClick={(e) => setActive(e)}>
                         <Link to='/'> Home</Link>
                     </NavItem>
-                    <NavItem>
-                        <Link to='/about'> About Me</Link>
+                    <hr className='mobileHr' />
+                    <NavItem onClick={(e) => setActive(e)}>
+                        <Link to='/about'> My Experience</Link>
                     </NavItem>
-                    <NavItem>
+                    <hr className='mobileHr' />
+                    <NavItem onClick={(e) => setActive(e)}>
                         <Link to='/websites'> My Portfolio</Link>
                     </NavItem>
-                    <NavItem>
+                    <hr className='mobileHr' />
+                    <NavItem onClick={(e) => setActive(e)}>
                         <Link to='/skills'> Skiils</Link>
                     </NavItem>
                     {/* <NavDropdown
