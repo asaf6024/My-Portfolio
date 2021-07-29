@@ -1,7 +1,14 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-bottom: 0;
+}
+
 .container-fluid {
   /* background-color: #000000b0 !important; */
-  background-color: #ff8700 !important;
-  color: black !important;
+  /* background-color: #ff8700 !important; */
+  /* color: black !important; */
+  background-color: #2a4776 !important;
+  color: #fff !important;
 }
 /* .container {
   padding: 15px;
@@ -31,6 +38,11 @@ img {
 hr {
   height: 5px !important;
   border: 0 !important;
-  margin: 0 !important;
+  /* margin: 0 !important; */
+  margin: 15px !important;
   box-shadow: 0 10px 10px -10px #8c8b8b inset !important;
+}
+.arrowDown i {
+  color: white;
+  font-size: xx-large;
 }

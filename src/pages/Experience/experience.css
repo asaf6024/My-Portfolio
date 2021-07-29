@@ -1,3 +1,6 @@
+.container-fluid {
+  min-height: 100vh;
+}
 h1 {
   font-size: 50px;
   line-height: 1.2;
@@ -14,7 +17,6 @@ h1 {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 30px;
 }
 .showcase-content img {
   width: 300px;
@@ -25,6 +27,36 @@ h1 {
 }
 .showcase-content li span {
   margin-left: 15px !important;
+}
+
+.cardOfMe {
+  position: relative;
+  top: 10%;
+  /* color: #fff; */
+  text-align: center;
+  margin: auto;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  font-weight: 400;
+  border: 0;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+/* .cardOfMe h2,
+li {
+  color: black !important;
+} */
+#arrowDownB {
+  margin: auto;
+  text-align: center;
+  margin-top: 5% !important;
 }
 
 @media only screen and (max-width: 760px) {

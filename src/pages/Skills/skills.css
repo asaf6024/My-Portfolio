@@ -12,7 +12,12 @@ h2,
 h4 {
   color: black;
 }
-
+.skillsHr {
+  /* margin: 0 !important; */
+  margin: 1px !important;
+  box-shadow: none !important;
+  height: 2px !important;
+}
 .titleOfCard {
   position: absolute !important;
   bottom: 5px !important;

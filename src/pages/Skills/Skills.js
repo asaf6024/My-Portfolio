@@ -43,13 +43,13 @@ const Skiils = (props) => {
     })
     return (
         <div className='container-fluid'>
-            <div className='container'>
+            <div className='container' id='skiils'>
                 {
                     !props.isHome ?
                         <h1 className='text-center'>My Skills</h1>
                         : <h2 className='display-h1 text-center'>My Skills</h2>
                 }
-                <hr />
+                <hr className='skillsHr' />
                 <div classNameName="showcase-content">
                     <div>
                         {/* <h1>Asaf Almog</h1> */}
@@ -57,17 +57,17 @@ const Skiils = (props) => {
                         <MDBRow className='col-sm-12'>
                             {loadTechnologies()}
                         </MDBRow>
-                        <hr />
+                        <hr className='skillsHr' />
                         <h3 className='text-center'>Web libraries</h3>
                         <MDBRow className='col-sm-12'>
                             {loadLibraries()}
                         </MDBRow>
-                        <hr />
+                        <hr className='skillsHr' />
                         <h3 className='text-center'> Tools & Technologies</h3>
                         <MDBRow className='col-sm-12'>
                             {loadTools()}
                         </MDBRow>
-                        <hr />
+                        <hr className='skillsHr' />
                         <h3 className='text-center'> Operating systems</h3>
                         <MDBRow className='col-sm-12'>
                             {loadSystems()}

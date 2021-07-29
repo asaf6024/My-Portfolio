@@ -23,7 +23,8 @@ img.myImageInCarousel {
   height: 100%;
 }
 .card.cardOfWebsite {
-  background: #2a4776;
+  /* background: #2a4776; */
+  background: #212529;
   margin-left: 15px;
   width: 95% !important;
 }
@@ -48,14 +49,15 @@ h3 {
   display: none;
 }
 .myBtn {
-  background-color: #ff8700 !important;
+  /* background-color: #ff8700 !important; */
+  background-color: #2a4776 !important;
   z-index: 3;
 }
-td,
+/* td,
 h2,
 i {
   color: #fff !important;
-}
+} */
 p.carousel-status {
   color: #fff !important;
   font-weight: normal !important;
@@ -92,7 +94,7 @@ p.carousel-status {
   .card-body {
     width: 100%;
     padding: 0;
-    background: #2a4776;
+    background: #212529;
     margin-left: 12%;
     margin-top: 0 !important;
     z-index: 1 !important;
@@ -113,6 +115,10 @@ p.carousel-status {
     margin: auto;
     margin-left: 0;
     margin-top: 20px !important;
+  }
+  .card-body h2,
+  .card-body h5 {
+    font-size: small;
   }
   button.control-arrow.control-prev,
   button.control-arrow.control-next {

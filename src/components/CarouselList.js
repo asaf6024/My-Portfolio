@@ -36,7 +36,7 @@ const CarouselList = (props) => {
                                 </tr>
                                 <tr>
                                     <td colSpan='2'>
-                                        <hr />
+                                        <hr className='skillsHr' />
                                     </td>
                                 </tr>
                                 <tr>
@@ -52,7 +52,7 @@ const CarouselList = (props) => {
                                 </tr>
                                 <tr>
                                     <td colSpan='2'>
-                                        <hr />
+                                        <hr className='skillsHr' />
                                     </td>
                                 </tr>
                                 <tr>
@@ -69,7 +69,7 @@ const CarouselList = (props) => {
                                     <td>
                                         <ul>
                                             {website.technologies.map((element, index) => {
-                                                return <li key={index}>{element}</li>
+                                                return <li className='technologiesLi' key={index}>{element}</li>
                                             })}
                                         </ul>
                                     </td>
@@ -95,7 +95,7 @@ const CarouselList = (props) => {
                                 </tr>
                                 <tr>
                                     <td colSpan='2'>
-                                        <hr />
+                                        <hr className='skillsHr' />
                                     </td>
                                 </tr>
                                 <tr>
