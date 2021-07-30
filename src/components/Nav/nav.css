@@ -21,12 +21,20 @@ a:hover {
 .navbar-nav {
   margin: auto;
 }
+
 .mobileHr {
   display: none;
 }
 .activeLink {
   font-weight: bold;
 }
+.bg-dark {
+  position: fixed !important;
+  z-index: 2;
+}
+/* .activea {
+  font-weight: bold;
+} */
 @media only screen and (max-width: 760px) {
   a.col-sm-1.navbar-brand {
     width: 10%;

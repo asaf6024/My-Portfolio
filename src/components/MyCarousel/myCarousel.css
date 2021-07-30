@@ -3,7 +3,7 @@
   height: 400px !important;
 }
 .slider-wrapper.axis-horizontal {
-  height: 550px !important;
+  height: 450px !important;
 }
 .carouselData .cardOfWebsite {
   height: 100% !important;
@@ -65,7 +65,7 @@ p.carousel-status {
   padding-right: 25px !important;
 }
 .carousel .control-next.control-arrow:before {
-  border-left: 8px solid black !important;
+  border-left: 8px solid #fff !important;
   padding-right: 15px;
 }
 .carousel .control-prev.control-arrow:before {
@@ -77,9 +77,13 @@ p.carousel-status {
 .card-body {
   padding: 0 !important;
 }
+
 @media only screen and (max-width: 1400px) {
   .carouselData {
     position: absolute;
+  }
+  .technologiesLi {
+    font-size: 7pt;
   }
   .carouselData #carouelRight {
     display: block;
@@ -106,6 +110,9 @@ p.carousel-status {
 }
 
 @media only screen and (max-width: 760px) {
+  .carousel .slider-wrapper {
+    height: 400px !important;
+  }
   .carousel .slide img {
     width: 100px !important;
     height: inherit !important;

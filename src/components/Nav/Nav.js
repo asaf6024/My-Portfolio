@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
-import { Link } from "react-router-dom";
+// import { a } from "react-router-dom";
 import './nav.css'
 const NavPage = () => {
-    const [active, setACtive] = useState('activeLink')
+    const [active, setACtive] = useState('activea')
     const setActive = (e) => {
 
-        document.querySelectorAll('.activeLink').forEach(e => e.classList.remove('activeLink'));
-        e.target.classList.add('activeLink')
-        setACtive('')
+        // document.querySelectorAll('.activea').forEach(e => e.classList.remove('activea'));
+        // e.target.classList.add('activea')
+        // setACtive('')
     }
 
     return (
@@ -19,20 +19,20 @@ const NavPage = () => {
             <Navbar.Toggle aria-controls="navbar-dark-example" />
             <Navbar.Collapse id="navbar-dark-example" className='col-sm-9 text-center'>
                 <Nav >
-                    <NavItem className={active} onClick={(e) => setActive(e)}>
-                        <Link to='/'> Home</Link>
+                    <NavItem className='activeNav' onClick={(e) => setActive(e)}>
+                        <a id='landingNavItem' href='/#landing'> Home</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <Link to='/about'> My Experience</Link>
+                        <a id='portfolioNavItem' href='#websites'> My Portfolio</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <Link to='/websites'> My Portfolio</Link>
+                        <a id='skillsNavItem' href='#skiils'> Skiils</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <Link to='/skills'> Skiils</Link>
+                        <a id='experienceNavItem' href='#experience'> Experience</a>
                     </NavItem>
                     {/* <NavDropdown
                         id="nav-dropdown-dark-example"
@@ -43,7 +43,7 @@ const NavPage = () => {
                         <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
                         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                        <NavDropdown.Item href="#action/3.4">Separated a</NavDropdown.Item>
                     </NavDropdown> */}
 
                 </Nav>

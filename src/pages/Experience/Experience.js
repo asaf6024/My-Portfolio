@@ -47,8 +47,8 @@ const Experience = (props) => {
                         </div>
                     </div>
                     <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownB">
-                        <a href="#skiils">
-                            <i className="arrow bounce text-center fas fa-angle-down"></i>
+                        <a href="#landing">
+                            <i className="arrow bounce text-center fas fa-angle-up"></i>
                         </a>
                     </MDBAnimation>
                     {/* </MDBCol>

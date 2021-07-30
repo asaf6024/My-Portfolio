@@ -3,7 +3,7 @@ import './landing.css'
 const Landing = () => {
     return (
         <div className='container-fluid landingDiv'>
-            <div className='container'>
+            <div className='container' id='landing'>
                 <MDBAnimation type="fadeIn" delay=".5s" className="text-center">
                     <MDBRow>
                         <div className='col-md-6 col-sm-12 landingContent'>
@@ -15,7 +15,7 @@ const Landing = () => {
                         </div>
                         <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.jpeg" />
                         <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownA">
-                            <a href="#experience">
+                            <a href="#websites">
                                 <i className="arrow bounce text-center fas fa-angle-down"></i>
                             </a>
                         </MDBAnimation>

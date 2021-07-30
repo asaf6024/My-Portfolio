@@ -5,3 +5,25 @@ p,
 .technologiesLi {
   color: #fff;
 }
+#arrowDownWebsites {
+  margin-top: 0;
+}
+@media only screen and (max-width: 760px) {
+  .carousel .slider-wrapper {
+    height: 400px !important;
+  }
+  .carouselData.text-center {
+    background: #212529 !important;
+  }
+  button.control-arrow.control-next,
+  button.control-arrow.control-prev {
+    top: 20% !important;
+  }
+  .carousel .slide img {
+    margin-top: 20%;
+  }
+  .carouselData.text-center {
+    background: #212529 !important;
+    width: 100%;
+  }
+}

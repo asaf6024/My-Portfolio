@@ -5,6 +5,7 @@ import { MDBCol, MDBCard, MDBCardBody } from "mdbreact";
 
 const CarouselList = (props) => {
     const [isDisplayed, setIsDisplayed] = useState(false)
+
     const setDisplay = () => {
         if (!isDisplayed) {
             document.querySelectorAll(".cardOfWebsite").forEach(a => a.style.display = "initial")

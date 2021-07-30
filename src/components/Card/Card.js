@@ -4,6 +4,7 @@ import './card.css'
 const Card = (props) => {
     const [classOfCard, setClassOfCard] = useState('col-sm-6 col-md-3 col-lg-2')
     const [styleOfCard, setStyleOfCard] = useState('')
+
     useEffect(() => {
         if (props.col != undefined) {
             setClassOfCard(props.col)

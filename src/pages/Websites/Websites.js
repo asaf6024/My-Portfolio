@@ -5,11 +5,12 @@ import CarouselList from '../../components/CarouselList'
 import React from 'react'
 import websites from '../../dist/obj/websites'
 import './websites.css'
+import { MDBAnimation } from 'mdbreact'
 const Websites = (props) => {
 
     return (
         <div className='container-fluid'>
-            <div className='container'>
+            <div className='container' id='websites'>
                 <div className='col-sm-12 text-center'>
                     {
                         !props.isHome ?
@@ -23,6 +24,11 @@ const Websites = (props) => {
                     {/* <MyCarousel myObject={websites} /> */}
                 </div>
             </div>
+            <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownWebsites">
+                <a href="#skiils">
+                    <i className="arrow bounce text-center fas fa-angle-down"></i>
+                </a>
+            </MDBAnimation>
         </div>
     )
 }

@@ -9,25 +9,26 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className='container-fluid'>
-      <Router>
+      {/* <Router> */}
 
-        <Nav />
-        {/* <Router> */}
-        <Switch>
-          {/* דפי מידע */}
-          <Route exact path="/" component={Home} />
-          <Route exact path="/about" component={Experience} />
-          <Route exact path="/websites" component={Websites} />
-          <Route exact path="/skills" component={Skiils} />
-
-
-        </Switch>
-        {/* </Router> */}
-        <Footer />
-        {/* <NavigationBtn /> */}
+      <Nav />
+      {/* <Router> */}
+      {/* <Switch> */}
+      {/* דפי מידע */}
+      <Home />
+      {/* <Route exact path="/" component={Home} />
+      <Route exact path="/about" component={Experience} />
+      <Route exact path="/websites" component={Websites} />
+      <Route exact path="/skills" component={Skiils} /> */}
 
 
-      </Router>
+      {/* </Switch> */}
+      {/* </Router> */}
+      <Footer />
+      {/* <NavigationBtn /> */}
+
+
+      {/* </Router> */}
 
 
     </div>

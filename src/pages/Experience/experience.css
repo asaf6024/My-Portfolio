@@ -24,6 +24,7 @@ h1 {
 }
 .showcase-content li {
   padding: 10px 0;
+  font-size: 14pt;
 }
 .showcase-content li span {
   margin-left: 15px !important;
