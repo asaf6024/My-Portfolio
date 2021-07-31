@@ -14,7 +14,7 @@ const websites = [
     },
     {
         id: 2,
-        name: 'My Bakery Shop - React Redux website',
+        name: 'React Redux website',
         src: '../img/bakery.jpg',
         url: 'https://bakery-shop-redux.netlify.app/',
         github: 'https://github.com/asaf6024/bakery_shop_redux',
@@ -26,7 +26,7 @@ const websites = [
     },
     {
         id: 3,
-        name: 'My Sass Website',
+        name: 'Sass Website',
         src: '../img/sass.jpg',
         url: 'https://my-sass-website.netlify.app/',
         github: 'https://github.com/asaf6024/My-Sass-Website',
@@ -75,7 +75,7 @@ const websites = [
     },
     {
         id: 7,
-        name: 'Company Registration System',
+        name: 'Registration System',
         src: '../img/office.jpg',
         url: 'https://office.eventact.com',
         github: null,

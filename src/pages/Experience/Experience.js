@@ -27,7 +27,7 @@ const Experience = (props) => {
                                 <div className='itemOfExperience'>
                                     <li><strong>2020-2021 - Personal Projects</strong></li>
                                     <span>
-                                        Develop Websites using: React, JavaScript, Sass
+                                        Develop Websites using:<span className='font-italic'> React, JavaScript, Sass, Bootstrap</span>
                                     </span>
                                 </div>
 
@@ -39,7 +39,9 @@ const Experience = (props) => {
                                         </a>.</strong>
                                     </li>
                                     <span>
-                                        Develop and Maintenance Websites using: C#, JavaScript, HTML, Css, Angular, Bootstrap...
+                                        Develop and Maintenance Websites using:
+                                        <span className='font-italic'> C#, JavaScript, HTML, Css, Angular, Bootstrap</span>
+
                                     </span>
                                 </div>
 
@@ -47,7 +49,7 @@ const Experience = (props) => {
                                 <li> <strong>2017-2018 - Israel support engineer at <a
                                     className='font-italic'
                                     title='https://www.liveu.tv/' href='https://www.liveu.tv/' target="_blank">LiveU
-                                </a>.</strong></li>
+                                </a></strong></li>
                                 {/* <span>
                                 Develop Websites of React, JavaScript, Sass
                             </span> */}

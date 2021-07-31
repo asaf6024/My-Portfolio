@@ -34,7 +34,7 @@ const CarouselList = (props) => {
                             <table>
                                 <tr>
                                     <td colSpan='2'>
-                                        <h2 className='text-center'>{website.name}</h2>
+                                        <h2 className='text-center font-weight-bold'>{website.name}</h2>
                                     </td>
                                 </tr>
                                 <tr>
@@ -75,7 +75,7 @@ const CarouselList = (props) => {
                                     <td>
                                         <ul>
                                             {website.technologies.map((element, index) => {
-                                                return <li className='technologiesLi' key={index}>{element}</li>
+                                                return <li className='technologiesLi font-italic' key={index}>{element}</li>
                                             })}
                                         </ul>
                                     </td>

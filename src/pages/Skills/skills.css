@@ -12,10 +12,7 @@ h3 {
   height: inherit;
   margin: auto !important;
 }
-ul.react-tabs__tab-list li {
-  margin: 15px;
-  padding: 5px !important;
-}
+
 .card {
   height: 150px !important;
   margin: 0 0 15px 15px;
@@ -62,8 +59,26 @@ i {
 .react-tabs__tab-panel--selected {
   height: 300px !important;
 }
+ul.react-tabs__tab-list {
+  background-color: #2a4776;
+  width: max-content;
+  margin: auto;
+  border-bottom: none !important;
+}
+ul.react-tabs__tab-list li {
+  padding: 15px !important;
+  font-size: 14pt;
+}
 @media only screen and (max-width: 1100px) {
   .react-tabs__tab-panel--selected {
     height: initial !important;
+  }
+  ul.react-tabs__tab-list {
+    background: none;
+    width: initial;
+    margin: auto;
+  }
+  ul.react-tabs__tab-list li {
+    font-size: 10pt;
   }
 }

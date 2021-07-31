@@ -48,7 +48,7 @@ const NavPage = () => {
 
                 </Nav>
             </Navbar.Collapse>
-            <Navbar.Brand href="/" className='col-sm-2'>
+            <Navbar.Brand className='col-sm-2'>
                 <a href="tel:972502820405" className='col-sm-1 navFonts'>
                     <i className="fas fa-phone"></i>
                 </a>
@@ -57,7 +57,7 @@ const NavPage = () => {
                 </a>
             </Navbar.Brand>
             {/* </Container> */}
-        </Navbar>
+        </Navbar >
     )
 }
 export default NavPage
