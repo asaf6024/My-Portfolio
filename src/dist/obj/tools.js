@@ -3,7 +3,7 @@ const tools
         {
             id: 1,
             name: 'JSON',
-            src: ('../img/json.jpg')
+            src: ('../img/json.png')
         }
         ,
         {
@@ -24,12 +24,12 @@ const tools
         {
             id: 5,
             name: 'Google API',
-            src: ('../img/googleapi.jpg')
+            src: ('../img/google.png')
         },
         {
             id: 7,
             name: 'SQL Server',
-            src: ('../img/sql.jpg')
+            src: ('../img/sql.png')
         },
         {
             id: 7,

@@ -24,19 +24,28 @@ const Experience = (props) => {
                         <div className="showcase-content col-sm-12 ">
 
                             <ul>
-                                <li><strong>2020-2021 - Personal Projects</strong></li>
-                                <span>
-                                    Develop Websites of React, JavaScript, Sass
-                                </span>
-                                <br /> <br /> <br />
-                                <li> <strong>2018-2020 - Software Implementation & Front End Developer at <a
-                                    title='https://www.eventact.com/' href='https://www.eventact.com/' target="_blank">Eventact
-                                </a>.</strong></li>
-                                <span>
-                                    Develop Websites of React, JavaScript, Sass
-                                </span>
-                                <br /> <br /> <br />
+                                <div className='itemOfExperience'>
+                                    <li><strong>2020-2021 - Personal Projects</strong></li>
+                                    <span>
+                                        Develop Websites using: React, JavaScript, Sass
+                                    </span>
+                                </div>
+
+                                <div className='itemOfExperience'>
+                                    <li>
+                                        <strong>2018-2020 - Software Implementation & Front End Developer at <a
+                                            className='font-italic'
+                                            title='https://www.eventact.com/' href='https://www.eventact.com/' target="_blank">Eventact
+                                        </a>.</strong>
+                                    </li>
+                                    <span>
+                                        Develop and Maintenance Websites using: C#, JavaScript, HTML, Css, Angular, Bootstrap...
+                                    </span>
+                                </div>
+
+
                                 <li> <strong>2017-2018 - Israel support engineer at <a
+                                    className='font-italic'
                                     title='https://www.liveu.tv/' href='https://www.liveu.tv/' target="_blank">LiveU
                                 </a>.</strong></li>
                                 {/* <span>
@@ -56,8 +65,8 @@ const Experience = (props) => {
 
                     {/* </div> */}
                 </div>
-            </MDBAnimation>
-        </div>
+            </MDBAnimation >
+        </div >
     )
 }
 export default Experience

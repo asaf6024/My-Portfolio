@@ -1,12 +1,40 @@
 h3 {
   color: #fff;
 }
-#cardImage {
-  width: 120px;
+.cardImage {
+  height: 100px !important;
+}
+.skillItem {
+  margin: auto !important;
+}
+.showcase-content img {
+  width: 100px !important;
+  height: inherit;
+  margin: auto !important;
+}
+ul.react-tabs__tab-list li {
+  margin: 15px;
+  padding: 5px !important;
 }
 .card {
   height: 150px !important;
   margin: 0 0 15px 15px;
+}
+.myCard {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 15px auto;
+  /* background-color: #fff; */
+  color: #555;
+  overflow: hidden;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.myCard:hover {
+  border-color: #337ab7;
+  background-color: #2a4776 !important;
 }
 h2,
 h4 {
@@ -18,23 +46,19 @@ h4 {
   box-shadow: none !important;
   height: 2px !important;
 }
-.titleOfCard {
-  position: absolute !important;
-  bottom: 5px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-align: center;
-  right: 3px;
-  font-style: italic;
-}
-img {
+.cardImage img.img-fluid {
+  margin-top: 5px !important;
   margin: auto;
 }
+
 i {
   color: #fff;
 }
 #arrowDownc {
   margin: auto;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 7%;
+}
+.react-tabs__tab-panel--selected {
+  height: 300px !important;
 }

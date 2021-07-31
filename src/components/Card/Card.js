@@ -13,19 +13,14 @@ const Card = (props) => {
 
     })
     return (
-        <MDBCol className={`${classOfCard} colOfImage`}
 
-            style={{ display: 'inline-block' }}>
-            <MDBCard style={{ margin: styleOfCard }}>
-                <img id='cardImage' className="img-fluid" src={props.src} />
-                <MDBCardBody className='cardOfTechnologies'>
-                    <div className='titleDiv'>
-                        <MDBCardTitle className='titleOfCard'>{props.name}</MDBCardTitle>
-                        {/* <h3>{props.name}</h3> */}
-                    </div>
-                </MDBCardBody>
-            </MDBCard>
-        </MDBCol >
+        <div className={`myCard text-center${classOfCard}`}>
+            <div className='cardImage'>
+                <img className="img-fluid" src={props.src} alt={props.src} />
+            </div>
+
+            <p className="text-center font-italic">{props.name}</p>
+        </div>
     )
 }
 

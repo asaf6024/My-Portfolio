@@ -39,4 +39,15 @@ img.col-md-6.col-sm-12.landingImg {
     left: 0;
     right: 0;
   }
+  .col-sm-12.landingContent {
+    top: 20px;
+  }
+  img.col-md-6.col-sm-12.landingImg {
+    height: inherit;
+    width: 200px !important;
+    top: 20px;
+  }
+  #arrowDownA {
+    margin-top: 10%;
+  }
 }

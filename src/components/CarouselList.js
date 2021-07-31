@@ -19,7 +19,9 @@ const CarouselList = (props) => {
     const loadWebsites = () => props.myObject.map((website, index) => {
         return (
             <div className='carouselItem'>
-                <img className='myImageInCarousel' src={website.src} />
+                {/* <a href={website.url} target='_blank'> */}
+                <img className='myImageInCarousel' src={website.src} alt={website.name} />
+                {/* </a> */}
                 <div className='carouselData text-center'>
                     <button id='carouelRight' className="btn myBtn"
                         onClick={index => setDisplay(index)}
@@ -27,7 +29,7 @@ const CarouselList = (props) => {
                         <i className="fas fa-info"></i>
 
                     </button>
-                    <MDBCard className='cardOfWebsite'>
+                    <MDBCard className='cardOfWebsite' style={{ background: website.background }}>
                         <MDBCardBody>
                             <table>
                                 <tr>
@@ -46,7 +48,6 @@ const CarouselList = (props) => {
                                         {
                                             website.description != null ?
                                                 <p>{website.description}</p>
-
                                                 : ''
                                         }
                                     </td>
@@ -61,10 +62,14 @@ const CarouselList = (props) => {
                                         <h2>Technologies & Tools</h2>
 
                                     </td>
+                                    {
+                                        website.github != null ?
+                                            <td>
+                                                <h2>Source Code</h2>
+                                            </td>
+                                            : ''
+                                    }
 
-                                    <td>
-                                        <h2>GitHub</h2>
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -74,25 +79,21 @@ const CarouselList = (props) => {
                                             })}
                                         </ul>
                                     </td>
-                                    <td>
 
-                                        {
-                                            website.github != null ?
-                                                <h3 className='text-center'>
-                                                    <a id='githubFont' href={website.github} target='_blank' title={website.github}>
-                                                        <i className="fab fa-github fa-2x"></i>
-                                                    </a>
-                                                </h3>
+                                    {
+                                        website.github != null ?
+                                            <>
+                                                <td>
+                                                    <h3 className='text-center'>
+                                                        <a id='githubFont' href={website.github} target='_blank' title={website.github}>
+                                                            <i className="fab fa-github fa-2x"></i>
+                                                        </a>
+                                                    </h3>
+                                                </td>
+                                            </>
+                                            : ''
+                                    }
 
-
-                                                :
-                                                <h3 className='text-center'>
-                                                    <a id='githubFont' href={website.github} target='_blank' title={`Not allowed`}>
-                                                        <i style={{ cursor: 'not-allowed' }} className="fab fa-github fa-2x"></i>
-                                                    </a>
-                                                </h3>
-                                        }
-                                    </td>
                                 </tr>
                                 <tr>
                                     <td colSpan='2'>

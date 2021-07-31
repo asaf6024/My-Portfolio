@@ -18,16 +18,13 @@ h1 {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.showcase-content img {
-  width: 300px;
-  height: inherit;
-}
+
 .showcase-content li {
   padding: 10px 0;
   font-size: 14pt;
 }
-.showcase-content li span {
-  margin-left: 15px !important;
+.itemOfExperience {
+  margin-bottom: 30px;
 }
 
 .cardOfMe {

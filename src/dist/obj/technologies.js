@@ -2,13 +2,13 @@ const technologies = [
     {
         id: 1,
         name: 'React',
-        src: ('../img/react.jpg')
+        src: ('../img/react.png')
     }
     ,
     {
         id: 2,
         name: 'JavaScript',
-        src: ('../img/js.jpg')
+        src: ('../img/js.png')
     },
     {
         id: 3,
@@ -28,7 +28,7 @@ const technologies = [
     {
         id: 7,
         name: 'ES6',
-        src: ('../img/es6.jpg')
+        src: ('../img/es6.png')
     },
     {
         id: 7,
@@ -43,7 +43,7 @@ const technologies = [
     {
         id: 9,
         name: 'Node JS',
-        src: ('../img/nodejs.jpg')
+        src: ('../img/node.png')
     },
     {
         id: 9,

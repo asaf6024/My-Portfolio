@@ -4,7 +4,6 @@ h3 {
 #cardImage {
   width: 120px;
 }
-.titleOfCard,
 .cardOfTechnologies {
   background: white !important;
 }
@@ -16,15 +15,6 @@ h2 {
   color: black;
 }
 
-.titleOfCard {
-  position: absolute !important;
-  bottom: 5px !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-align: center;
-  right: 3px;
-  font-style: italic;
-}
 .card {
   /* margin: 15px !important; */
   width: max-content !important;

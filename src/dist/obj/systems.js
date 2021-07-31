@@ -7,7 +7,7 @@ const systems = [
     {
         id: 2,
         name: 'Linux',
-        src: '../img/linux.jpg'
+        src: '../img/linux.png'
     }
 ]
 export default systems

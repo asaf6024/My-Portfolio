@@ -12,9 +12,9 @@ p,
   .carousel .slider-wrapper {
     height: 400px !important;
   }
-  .carouselData.text-center {
+  /* .carouselData.text-center {
     background: #212529 !important;
-  }
+  } */
   button.control-arrow.control-next,
   button.control-arrow.control-prev {
     top: 20% !important;

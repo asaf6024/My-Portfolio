@@ -3,7 +3,7 @@ const libraries
         {
             id: 1,
             name: 'Bootstrap',
-            src: ('../img/bootstrap.jpg')
+            src: ('../img/bootstrap.png')
         }
         ,
         {
@@ -14,7 +14,7 @@ const libraries
         {
             id: 3,
             name: 'MDB',
-            src: ('../img/mdb.jpg')
+            src: ('../img/mdb.png')
         },
         {
             id: 4,

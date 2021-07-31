@@ -6,6 +6,8 @@ import systems from '../../dist/obj/systems'
 import './skills.css'
 import Card from '../../components/Card/Card'
 import { MDBRow, MDBCollapse, MDBAnimation } from 'mdbreact'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 const Skiils = (props) => {
     const [collapseID, setICollapseID] = useState("")
@@ -68,6 +70,7 @@ const Skiils = (props) => {
     const loadTechnologies = () => technologies.map(technology => {
         return (
             <Card
+                col='col-sm-4 col-md-3 col-lg-2'
                 name={technology.name}
                 src={technology.src}
             />
@@ -92,7 +95,7 @@ const Skiils = (props) => {
     const loadSystems = () => systems.map(system => {
         return (
             <Card
-                col='col-sm-6'
+                col='col-sm-12 col-md-5 col-lg-5'
                 name={system.name}
                 src={system.src}
             />
@@ -106,80 +109,52 @@ const Skiils = (props) => {
                         <h1 className='text-center'>My Skills</h1>
                         : <h2 className='display-h1 text-center'>My Skills</h2>
                 }
-                <hr className='skillsHr' />
-                <div classNameName="showcase-content">
+                {/* <hr className='skillsHr' />My Portfolio */}
+                <div className="showcase-content">
                     <div>
                         {/* <h1>Asaf Almog</h1> */}
 
-                        <h3 className='text-center'>Web development</h3>
-                        <MDBRow className='col-sm-12'>
-                            {loadTechnologies()}
-                        </MDBRow>
-                        <hr className='skillsHr' />
-                        <MDBRow className='col-sm-12'>
-                            <div className='col-sm-4'>
-                                <h3 className='text-center' id='basicCollapse1'>Web libraries</h3>
-                                <h3 onClick={toggleCollapse("basicCollapse1")} className='text-center' style={{ cursor: 'pointer' }}>
-                                    <i className={arrowIcon} style={{ display: 'inline-block' }} title='Click'></i>
-                                </h3>
-                            </div>
+                        <Tabs className='text-center'>
+                            <TabList>
+                                <Tab>Web development</Tab>
+                                <Tab>Web libraries</Tab>
+                                <Tab>Tools & Technologies</Tab>
+                                <Tab>Operating systems</Tab>
+                            </TabList>
+                            <br />
+                            <br />
+                            <TabPanel>
+                                <MDBRow className='col-sm-12 skillItem'>
+                                    <h3 className='text-center'>Web development</h3>
+                                    {loadTechnologies()}
+                                </MDBRow>
+                            </TabPanel>
 
-                            <div className='col-sm-4'>
-                                <h3 className='text-center' id='basicCollapse2'> Tools & Technologies</h3>
-                                <h4 onClick={toggleCollapse2("basicCollapse2")} className='text-center' style={{ cursor: 'pointer' }}>
-                                    <i className={arrowIcon2} style={{ display: 'inline-block' }} title='Click'></i>
-                                </h4>
-                            </div>
-                            <div className='col-sm-4'>
-                                <h3 className='text-center' id='basicCollapse3'> Operating systems</h3>
-                                <h4 onClick={toggleCollapse3("basicCollapse3")} className='text-center' style={{ cursor: 'pointer' }}>
-                                    <i className={arrowIcon3} style={{ display: 'inline-block' }} title='Click'></i>
-                                </h4>
-
-                            </div>
-
-                            {/* <hr className='skillsHr' />
-                        <h3 className='text-center'>Web libraries</h3> */}
-
-                            {/* <h4 onClick={toggleCollapse("basicCollapse1")} className='text-center' style={{ cursor: 'pointer' }}>
-                            <i className={arrowIcon} style={{ display: 'inline-block' }}></i>
-                            <> */}
-                            <MDBCollapse id="basicCollapse1" isOpen={collapseID}>
-                                <MDBRow className='col-sm-12'>
+                            <TabPanel>
+                                <MDBRow className='col-sm-12 skillItem'>
+                                    <h3 className='text-center'>Web libraries</h3>
                                     {loadLibraries()}
                                 </MDBRow>
-                            </MDBCollapse>
-                            {/* </>
-                        </h4> */}
+                            </TabPanel>
 
-
-                            {/* <hr className='skillsHr' />
-                        <h3 className='text-center'> Tools & Technologies</h3> */}
-                            {/* <h4 onClick={toggleCollapse2("basicCollapse2")} className='text-center' style={{ cursor: 'pointer' }}>
-                            <i className={arrowIcon2} style={{ display: 'inline-block' }}></i>
-                            <> */}
-                            <MDBCollapse id="basicCollapse2" isOpen={collapseID}>
-                                <MDBRow className='col-sm-12'>
+                            <TabPanel>
+                                <MDBRow className='col-sm-12 skillItem'>
+                                    <h3 className='text-center'>  Tools & Technologies</h3>
                                     {loadTools()}
                                 </MDBRow>
-                            </MDBCollapse>
-                            {/* </>
-                        </h4> */}
+                            </TabPanel>
 
-
-                            {/* <hr className='skillsHr' />
-                        <h3 className='text-center'> Operating systems</h3> */}
-                            {/* <h4 onClick={toggleCollapse3("basicCollapse3")} className='text-center' style={{ cursor: 'pointer' }}>
-                            <i className={arrowIcon3} style={{ display: 'inline-block' }}></i>
-                            <> */}
-                            <MDBCollapse id="basicCollapse3" isOpen={collapseID}>
-                                <MDBRow className='col-sm-12'>
+                            <TabPanel>
+                                <MDBRow className='col-sm-12 skillItem'>
+                                    <h3 className='text-center'> Operating systems</h3>
                                     {loadSystems()}
                                 </MDBRow>
-                            </MDBCollapse>
-                            {/* </>
-                        </h4> */}
-                        </MDBRow>
+                            </TabPanel>
+                        </Tabs>
+
+
+
+
                     </div>
                 </div>
             </div >
