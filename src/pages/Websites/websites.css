@@ -8,6 +8,10 @@ p,
 #arrowDownWebsites {
   margin-top: 0;
 }
+.thumbs-wrapper.axis-vertical {
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 760px) {
   .carousel .slider-wrapper {
     height: 400px !important;

@@ -62,3 +62,8 @@ i {
 .react-tabs__tab-panel--selected {
   height: 300px !important;
 }
+@media only screen and (max-width: 1100px) {
+  .react-tabs__tab-panel--selected {
+    height: initial !important;
+  }
+}
