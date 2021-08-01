@@ -54,6 +54,19 @@ const websites = [
     },
     {
         id: 5,
+        name: 'HP Event Website',
+        src: '../img/websites/hp.jpg',
+        url: 'https://ws.eventact.com/vipevent',
+        github: null,
+        technologies: ['HTML', 'Bootstrap', 'CSS'],
+        year: '2019',
+        frame: 'Software Implementation & Frondend Developer at Eventact',
+        description: 'Build & Maintenance',
+        background: '#dc3545',
+        login: null
+    },
+    {
+        id: 6,
         name: 'Employees Website',
         src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
@@ -67,7 +80,7 @@ const websites = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Customers help Website',
         src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
@@ -80,7 +93,7 @@ const websites = [
         login: null
     },
     {
-        id: 7,
+        id: 8,
         name: 'Registration System',
         src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
@@ -93,7 +106,7 @@ const websites = [
         login: null
     },
     {
-        id: 8,
+        id: 9,
         name: 'Final Project Website & App',
         src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',

@@ -87,7 +87,11 @@ p.carousel-status {
 li.thumb.selected {
   border: 3px solid #ccc !important;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1200px) {
+  .carousel .slide img {
+    width: 300px !important;
+    height: inherit !important;
+  }
   .carouselData {
     position: absolute;
   }
@@ -121,6 +125,7 @@ li.thumb.selected {
 @media only screen and (max-width: 760px) {
   img.qrCodeImage {
     display: none !important;
+    margin-bottom: 5px;
   }
   .carousel .slider-wrapper {
     height: 400px !important;

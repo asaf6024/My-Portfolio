@@ -30,4 +30,10 @@ p,
     background: #212529 !important;
     width: 100%;
   }
+  .card.cardOfWebsite {
+    background: none !important;
+  }
+  .carousel.carousel-slider .control-arrow {
+    margin-right: -20px !important;
+  }
 }
