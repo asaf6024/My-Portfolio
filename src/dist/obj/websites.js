@@ -2,7 +2,7 @@ const websites = [
     {
         id: 1,
         name: 'Meshek Almog',
-        src: '../img/almog.jpg',
+        src: '../img/websites/almog.jpg',
         url: 'https://meshekalmog.co.il/',
         github: null,
         // technologies: ['React (Redux, Hooks)', 'React-Bootstrap', 'mdbReact', 'Web Api', 'CSS', 'MongoDB', ' Node.js', 'Axios'],
@@ -15,7 +15,7 @@ const websites = [
     {
         id: 2,
         name: 'React Redux website',
-        src: '../img/bakery.jpg',
+        src: '../img/websites/bakery.jpg',
         url: 'https://bakery-shop-redux.netlify.app/',
         github: 'https://github.com/asaf6024/bakery_shop_redux',
         technologies: ['React (Redux, Hooks)', 'Axios', 'Bootstrap'],
@@ -27,7 +27,7 @@ const websites = [
     {
         id: 3,
         name: 'Sass Website',
-        src: '../img/sass.jpg',
+        src: '../img/websites/sass.jpg',
         url: 'https://my-sass-website.netlify.app/',
         github: 'https://github.com/asaf6024/My-Sass-Website',
         technologies: ['Sass', 'HTML'],
@@ -39,7 +39,7 @@ const websites = [
     {
         id: 4,
         name: 'Company Website',
-        src: '../img/eventact.jpg',
+        src: '../img/websites/eventact.jpg',
         url: 'https://eventact.com/',
         github: null,
         technologies: ['JavaScript', 'Angular', 'CSS'],
@@ -51,7 +51,7 @@ const websites = [
     {
         id: 5,
         name: 'Technicians Website',
-        src: '../img/technicians.jpg',
+        src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
         github: null,
         technologies: ['JavaScript', 'Angular', 'bootstrap 3'],
@@ -64,7 +64,7 @@ const websites = [
     {
         id: 6,
         name: 'Customers help Website',
-        src: '../img/customers.jpg',
+        src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
         github: null,
         technologies: ['HTML', 'JavaScript', 'bootstrap 3', 'CSS'],
@@ -76,7 +76,7 @@ const websites = [
     {
         id: 7,
         name: 'Registration System',
-        src: '../img/office.jpg',
+        src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
         github: null,
         technologies: ['C#', 'SQL Server', 'JavaScript', 'bootstrap 3'],
@@ -88,7 +88,7 @@ const websites = [
     {
         id: 8,
         name: 'Final Project Website',
-        src: '../img/fixme.jpg',
+        src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',
         github: null,
         technologies: ['C#', 'SQL Server', 'JavaScript'],
