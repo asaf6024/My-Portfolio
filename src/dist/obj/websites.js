@@ -47,7 +47,7 @@ const websites = [
         github: null,
         technologies: ['JavaScript', 'Angular', 'CSS'],
         year: '2020 - 2018',
-        frame: 'Software Implementation & Frondend Developer at Eventact',
+        frame: 'Developed at Eventact',
         description: 'Maintenance, QA and Content updates',
         background: '#212529',
         login: null
@@ -60,7 +60,7 @@ const websites = [
         github: null,
         technologies: ['HTML', 'Bootstrap', 'CSS'],
         year: '2019',
-        frame: 'Software Implementation & Frondend Developer at Eventact',
+        frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
         background: '#dc3545',
         login: null
@@ -73,7 +73,7 @@ const websites = [
         github: null,
         technologies: ['JavaScript', 'jQuery', 'Bootstrap 3'],
         year: '2020 - 2018',
-        frame: 'Software Implementation & Frondend Developer at Eventact',
+        frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
         background: '#28a745',
         login: null
@@ -87,7 +87,7 @@ const websites = [
         github: null,
         technologies: ['HTML', 'JavaScript', 'Bootstrap 3', 'CSS'],
         year: '2020 - 2018',
-        frame: 'Software Implementation & Frondend Developer at Eventact',
+        frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
         background: '#6610f2',
         login: null
@@ -100,7 +100,7 @@ const websites = [
         github: null,
         technologies: ['C#', 'SQL Server', 'JavaScript', 'Bootstrap 3'],
         year: '2020 - 2018',
-        frame: 'Software Implementation & Frondend Developer at Eventact',
+        frame: 'Developed at Eventact',
         description: 'Maintenance, QA and Content updates',
         background: '#dc3545',
         login: null
