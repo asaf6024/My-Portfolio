@@ -153,34 +153,3 @@ li.thumb.selected {
     height: max-content !important;
   }
 }
-
-/* .legend {
-  bottom: 15px !important;
-}
-a.linkToSite {
-  position: relative;
-  top: -80px;
-  z-index: 3;
-  color: black !important;
-}
-a.linkToSite:hover {
-  color: blue !important;
-}
-.col-sm-12.text-center.carousel-caption {
-  position: relative !important;
-  left: 0 !important;
-}
-.carousel .carousel-control-next-icon {
-  size: 5em !important;
-}
-.imageOfCarousel {
-  margin: auto !important;
-}
-.textAbotSite {
-  background-color: white;
-  float: right;
-}
-.textAbotSite h3,
-i {
-  color: black !important;
-} */
