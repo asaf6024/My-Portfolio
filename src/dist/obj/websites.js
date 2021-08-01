@@ -9,8 +9,9 @@ const websites = [
         technologies: ['React (Redux, Hooks)', 'MongoDB', ' Node.js', 'Axios', 'mdbReact'],
         year: '2021',
         frame: 'Personal Project',
-        description: 'A website for my family farmer',
-        background: '#6610f2'
+        description: `A website for my family's farmer`,
+        background: '#6610f2',
+        login: null
     },
     {
         id: 2,
@@ -22,7 +23,8 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: null,
-        background: '#dc3545'
+        background: '#dc3545',
+        login: null
     },
     {
         id: 3,
@@ -34,7 +36,8 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: null,
-        background: '#fd7e14'
+        background: '#fd7e14',
+        login: null
     },
     {
         id: 4,
@@ -46,19 +49,21 @@ const websites = [
         year: '2020 - 2018',
         frame: 'Software Implementation & Frondend Developer at Eventact',
         description: 'Maintenance, QA and Content updates',
-        background: '#212529'
+        background: '#212529',
+        login: null
     },
     {
         id: 5,
-        name: 'Technicians Website',
+        name: 'Employees Website',
         src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
         github: null,
-        technologies: ['JavaScript', 'Angular', 'bootstrap 3'],
+        technologies: ['JavaScript', 'jQuery', 'Bootstrap 3'],
         year: '2020 - 2018',
         frame: 'Software Implementation & Frondend Developer at Eventact',
         description: 'Build & Maintenance',
-        background: '#28a745'
+        background: '#28a745',
+        login: null
     },
 
     {
@@ -67,11 +72,12 @@ const websites = [
         src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
         github: null,
-        technologies: ['HTML', 'JavaScript', 'bootstrap 3', 'CSS'],
+        technologies: ['HTML', 'JavaScript', 'Bootstrap 3', 'CSS'],
         year: '2020 - 2018',
         frame: 'Software Implementation & Frondend Developer at Eventact',
         description: 'Build & Maintenance',
-        background: '#6610f2'
+        background: '#6610f2',
+        login: null
     },
     {
         id: 7,
@@ -79,23 +85,29 @@ const websites = [
         src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
         github: null,
-        technologies: ['C#', 'SQL Server', 'JavaScript', 'bootstrap 3'],
+        technologies: ['C#', 'SQL Server', 'JavaScript', 'Bootstrap 3'],
         year: '2020 - 2018',
         frame: 'Software Implementation & Frondend Developer at Eventact',
         description: 'Maintenance, QA and Content updates',
-        background: '#dc3545'
+        background: '#dc3545',
+        login: null
     },
     {
         id: 8,
-        name: 'Final Project Website',
+        name: 'Final Project Website & App',
         src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',
         github: null,
-        technologies: ['C#', 'SQL Server', 'JavaScript'],
+        technologies: ['C#', 'SQL Server', 'JavaScript', 'Ajax'],
         year: '2016 - 2017',
         frame: 'Bachelor Degree',
         description: null,
-        background: '#fd7e14'
+        background: '#fd7e14',
+        login: {
+            userName: 201082005,
+            password: 8888,
+            qrCode: '../img/websites/QrFixMe.jpg'
+        },
 
     }
 

@@ -1,6 +1,10 @@
 .carousel .slide img {
   width: inherit !important;
-  height: 400px !important;
+  /* height: 400px !important; */
+  height: 400px;
+}
+img.qrCodeImage {
+  height: 50px !important;
 }
 .slider-wrapper.axis-horizontal {
   height: 450px !important;
@@ -77,7 +81,12 @@ p.carousel-status {
 .card-body {
   padding: 0 !important;
 }
-
+.carousel .thumb {
+  border: none !important;
+}
+li.thumb.selected {
+  border: 3px solid #ccc !important;
+}
 @media only screen and (max-width: 1400px) {
   .carouselData {
     position: absolute;
@@ -110,6 +119,9 @@ p.carousel-status {
 }
 
 @media only screen and (max-width: 760px) {
+  img.qrCodeImage {
+    display: none !important;
+  }
   .carousel .slider-wrapper {
     height: 400px !important;
   }

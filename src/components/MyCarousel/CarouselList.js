@@ -2,6 +2,7 @@ import { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { MDBCol, MDBCard, MDBCardBody } from "mdbreact";
+import './myCarousel.css'
 
 const CarouselList = (props) => {
     const [isDisplayed, setIsDisplayed] = useState(false)
@@ -69,13 +70,20 @@ const CarouselList = (props) => {
                                             </td>
                                             : ''
                                     }
+                                    {
+                                        website.login != null ?
+                                            <td>
+                                                <h2>Login</h2>
+                                            </td>
+                                            : ''
+                                    }
 
                                 </tr>
                                 <tr>
                                     <td>
                                         <ul>
                                             {website.technologies.map((element, index) => {
-                                                return <li className='technologiesLi font-italic' key={index}>{element}</li>
+                                                return <li className='technologiesLi font-italic font-weight-bold' key={index}>{element}</li>
                                             })}
                                         </ul>
                                     </td>
@@ -89,6 +97,19 @@ const CarouselList = (props) => {
                                                             <i className="fab fa-github fa-2x"></i>
                                                         </a>
                                                     </h3>
+                                                </td>
+                                            </>
+                                            : ''
+                                    }
+                                    {
+                                        website.login != null ?
+                                            <>
+                                                <td>
+                                                    <img className='qrCodeImage' src={website.login.qrCode} alt='QR Code' />
+                                                    <ul>
+                                                        <li className='technologiesLi'>User Name: {website.login.userName}</li>
+                                                        <li className='technologiesLi'>Password: {website.login.password}</li>
+                                                    </ul>
                                                 </td>
                                             </>
                                             : ''
@@ -120,25 +141,7 @@ const CarouselList = (props) => {
 
     return (
         <Carousel className='col-sm-12 text-center'>
-            {/* <div> */}
-            {/* <img src="assets/1.jpeg" />
-                <p className="legend">Legend 1</p>
-            </div> */}
             {loadWebsites()}
-
-            {/* {loadWImages()} */}
-            {/* <div>
-                <img src="assets/3.jpeg" />
-                <p className="legend">Legend 3</p>
-            </div>
-            <div>
-                <img src="assets/3.jpeg" />
-                <p className="legend">Legend 3</p>
-            </div>
-            <div>
-                <img src="assets/3.jpeg" />
-                <p className="legend">Legend 3</p>
-            </div> */}
         </Carousel>
     );
 }

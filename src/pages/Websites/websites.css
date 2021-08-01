@@ -23,7 +23,7 @@ p,
   button.control-arrow.control-prev {
     top: 20% !important;
   }
-  .carousel .slide img {
+  .carousel .slide .landingImg {
     margin-top: 20%;
   }
   .carouselData.text-center {

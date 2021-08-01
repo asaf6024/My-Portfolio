@@ -49,11 +49,14 @@ const NavPage = () => {
                 </Nav>
             </Navbar.Collapse>
             <Navbar.Brand className='col-sm-2'>
-                <a href="tel:972502820405" className='col-sm-1 navFonts'>
+                <a href="tel:972502820405" className='col-sm-1 navFonts' title='mobile'>
                     <i className="fas fa-phone"></i>
                 </a>
-                <a href="mailto:972502820405" className='col-sm-1'>
+                <a href="mailto:972502820405" className='col-sm-1' title='email'>
                     <i className="far fa-envelope"></i>
+                </a>
+                <a href="https://github.com/asaf6024" target='_blank' title='github' className='col-sm-1'>
+                    <i className="fab fa-github"></i>
                 </a>
             </Navbar.Brand>
             {/* </Container> */}
