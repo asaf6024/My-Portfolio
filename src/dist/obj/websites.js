@@ -15,6 +15,19 @@ const websites = [
     },
     {
         id: 2,
+        name: 'News Api',
+        src: '../img/websites/bakery.jpg',
+        url: 'https://my-api-website.netlify.app/',
+        github: 'https://github.com/asaf6024/My_Api_App',
+        technologies: ['React (Redux, Hooks)', 'Bootstrap', 'Rest Api'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: null,
+        background: '#212529',
+        login: null
+    },
+    {
+        id: 3,
         name: 'React Redux website',
         src: '../img/websites/bakery.jpg',
         url: 'https://bakery-shop-redux.netlify.app/',
@@ -27,7 +40,7 @@ const websites = [
         login: null
     },
     {
-        id: 3,
+        id: 4,
         name: 'Sass Website',
         src: '../img/websites/sass.jpg',
         url: 'https://my-sass-website.netlify.app/',
@@ -40,7 +53,7 @@ const websites = [
         login: null
     },
     {
-        id: 4,
+        id: 5,
         name: 'Company Website',
         src: '../img/websites/eventact.jpg',
         url: 'https://eventact.com/',
@@ -53,7 +66,7 @@ const websites = [
         login: null
     },
     {
-        id: 5,
+        id: 6,
         name: 'HP Event Website',
         src: '../img/websites/hp.jpg',
         url: 'https://ws.eventact.com/vipevent',
@@ -66,7 +79,7 @@ const websites = [
         login: null
     },
     {
-        id: 6,
+        id: 7,
         name: 'Employees Website',
         src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
@@ -80,7 +93,7 @@ const websites = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Customers help Website',
         src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
@@ -93,7 +106,7 @@ const websites = [
         login: null
     },
     {
-        id: 8,
+        id: 9,
         name: 'Registration System',
         src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
@@ -106,7 +119,7 @@ const websites = [
         login: null
     },
     {
-        id: 9,
+        id: 10,
         name: 'Final Project Website & App',
         src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',
