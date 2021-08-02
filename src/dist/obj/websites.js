@@ -19,7 +19,7 @@ const websites = [
         src: '../img/websites/articles.jpg',
         url: 'https://my-api-website.netlify.app/',
         github: 'https://github.com/asaf6024/My_Api_App',
-        technologies: ['React (Redux, Hooks)', 'Bootstrap', 'Rest Api'],
+        technologies: ['React (Redux, Hooks)', 'JavaScript', 'Rest Api'],
         year: '2021',
         frame: 'Personal Project',
         description: null,
