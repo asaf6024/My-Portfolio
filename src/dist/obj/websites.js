@@ -32,7 +32,7 @@ const websites = [
         src: '../img/websites/bakery.jpg',
         url: 'https://bakery-shop-redux.netlify.app/',
         github: 'https://github.com/asaf6024/bakery_shop_redux',
-        technologies: ['React (Redux, Hooks)', 'Axios', 'Bootstrap'],
+        technologies: ['React-Redux', 'Axios', 'Bootstrap'],
         year: '2021',
         frame: 'Personal Project',
         description: null,
