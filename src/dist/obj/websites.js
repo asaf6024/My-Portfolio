@@ -16,7 +16,7 @@ const websites = [
     {
         id: 2,
         name: 'News Api',
-        src: '../img/websites/bakery.jpg',
+        src: '../img/websites/articles.jpg',
         url: 'https://my-api-website.netlify.app/',
         github: 'https://github.com/asaf6024/My_Api_App',
         technologies: ['React (Redux, Hooks)', 'Bootstrap', 'Rest Api'],
