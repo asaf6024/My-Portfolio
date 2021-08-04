@@ -6,7 +6,7 @@ const websites = [
         url: 'https://meshekalmog.co.il/',
         github: null,
         // technologies: ['React (Redux, Hooks)', 'React-Bootstrap', 'mdbReact', 'Web Api', 'CSS', 'MongoDB', ' Node.js', 'Axios'],
-        technologies: ['React (Redux, Hooks)', 'MongoDB', ' Node.js', 'Axios', 'mdbReact'],
+        technologies: ['React (Redux, Hooks, Axios)', 'MongoDB', ' Node.js', 'Express.js', 'mdbReact'],
         year: '2021',
         frame: 'Personal Project',
         description: `A website for my family's farmer`,

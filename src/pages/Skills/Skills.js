@@ -124,28 +124,28 @@ const Skiils = (props) => {
                             <br />
                             <br />
                             <TabPanel>
-                                <MDBRow className='col-sm-12 skillItem'>
+                                <MDBRow className='col-sm-12 skillItem animated fadeIn'>
                                     <h3 className='text-center'>Web development</h3>
                                     {loadTechnologies()}
                                 </MDBRow>
                             </TabPanel>
 
                             <TabPanel>
-                                <MDBRow className='col-sm-12 skillItem'>
+                                <MDBRow className='col-sm-12 skillItem animated fadeInUp'>
                                     <h3 className='text-center'>Web libraries</h3>
                                     {loadLibraries()}
                                 </MDBRow>
                             </TabPanel>
 
                             <TabPanel>
-                                <MDBRow className='col-sm-12 skillItem'>
+                                <MDBRow className='col-sm-12 skillItem animated fadeInLeft'>
                                     <h3 className='text-center'>  Tools & Technologies</h3>
                                     {loadTools()}
                                 </MDBRow>
                             </TabPanel>
 
                             <TabPanel>
-                                <MDBRow className='col-sm-12 skillItem'>
+                                <MDBRow className='col-sm-12 skillItem animated fadeInRight'>
                                     <h3 className='text-center'> Operating systems</h3>
                                     {loadSystems()}
                                 </MDBRow>

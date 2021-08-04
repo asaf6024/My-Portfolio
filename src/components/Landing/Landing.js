@@ -10,7 +10,7 @@ const Landing = () => {
                             <p style={{ fontSize: '20pt' }}> Hi, I'm Asaf!<br />
                                 I'm a <b>Front End Developer</b> who specializes in <br />
                                 <span className='font-italic'>React, JavaScript, Css</span> and more..<br />
-                                Find details about my Websites, Skiils and Experience below
+                                {/* Find details about my Websites, Skiils and Experience below */}
                             </p>
                         </div>
                         <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.jpeg" alt='Asaf' />

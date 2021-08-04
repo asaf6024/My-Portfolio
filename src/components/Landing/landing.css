@@ -31,6 +31,10 @@ img.col-md-6.col-sm-12.landingImg {
   -webkit-animation: bounce 5s infinite;
   animation: bounce 5s infinite;
 }
+.bounceButton {
+  -webkit-animation: bounce 58s infinite;
+  animation: bounce 8s infinite;
+}
 img.qrCodeImage {
   width: 50px !important;
   height: inherit;
