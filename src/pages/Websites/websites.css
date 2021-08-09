@@ -11,11 +11,26 @@ p,
 .thumbs-wrapper.axis-vertical {
   margin: 0 auto;
 }
-
+@media only screen and (max-width: 1200px) {
+  .carousel .slider-wrapper {
+    height: 700px !important;
+  }
+  .carouselData.text-center {
+    background: #212529;
+    width: 100%;
+    padding-right: 20px;
+    padding-right: 80px !important;
+  }
+  .carouselData .cardOfWebsite {
+    border: none !important;
+  }
+}
 @media only screen and (max-width: 760px) {
   .carousel .slider-wrapper {
     height: 400px !important;
+    color: #fff;
   }
+
   /* .carouselData.text-center {
     background: #212529 !important;
   } */
@@ -27,11 +42,12 @@ p,
     margin-top: 20%;
   }
   .carouselData.text-center {
-    background: #212529 !important;
+    background: #212529;
     width: 100%;
   }
   .card.cardOfWebsite {
     background: none !important;
+    border: none !important;
   }
   .carousel.carousel-slider .control-arrow {
     margin-right: -20px !important;
