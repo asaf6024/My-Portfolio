@@ -11,6 +11,8 @@ img.qrCodeImage {
 }
 .carouselData .cardOfWebsite {
   height: 100% !important;
+  background: transparent;
+  border: 2px solid #fff;
 }
 .carouselItem {
   display: flex;
@@ -28,7 +30,7 @@ img.myImageInCarousel {
 }
 .card.cardOfWebsite {
   /* background: #2a4776; */
-  background: #212529;
+  /* background: #212529; */
   margin-left: 15px;
   width: 95% !important;
 }

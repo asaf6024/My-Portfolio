@@ -10,7 +10,8 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: `A website for my family's farmer`,
-        background: '#6610f2',
+        // background: 'linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 121, 59) 68%, rgb(0 212 255 / 16%))',
+        background: 'transparent',
         login: null
     },
     {
@@ -36,7 +37,7 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: null,
-        background: '#28a745',
+        background: 'linear-gradient(90deg,rgb(94 120 88 / 25%) 0%,rgb(78 81 114) 0%,rgb(124 55 55) 23%,rgba(15, 36, 55, 1) 74%)',
         login: null
     },
     {
@@ -49,7 +50,7 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: null,
-        background: '#dc3545',
+        background: '#8a2be2',
         login: null
     },
     {
@@ -75,7 +76,7 @@ const websites = [
         year: '2020 - 2018',
         frame: 'Developed at Eventact',
         description: 'Maintenance, QA and Content updates',
-        background: '#212529',
+        background: '#002448',
         login: null
     },
     {
@@ -88,7 +89,7 @@ const websites = [
         year: '2019',
         frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
-        background: '#dc3545',
+        background: '#F48221',
         login: null
     },
     {
@@ -101,7 +102,7 @@ const websites = [
         year: '2020 - 2018',
         frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
-        background: '#28a745',
+        background: '#343a40',
         login: null
     },
 
@@ -115,7 +116,7 @@ const websites = [
         year: '2020 - 2018',
         frame: 'Developed at Eventact',
         description: 'Build & Maintenance',
-        background: '#6610f2',
+        background: '#111',
         login: null
     },
     {
@@ -128,7 +129,7 @@ const websites = [
         year: '2020 - 2018',
         frame: 'Developed at Eventact',
         description: 'Maintenance, QA and Content updates',
-        background: '#dc3545',
+        background: '#757575',
         login: null
     },
     {
@@ -141,7 +142,7 @@ const websites = [
         year: '2016 - 2017',
         frame: 'Bachelor Degree',
         description: null,
-        background: '#fd7e14',
+        background: '#337ab7',
         login: {
             userName: 201082005,
             password: 8888,

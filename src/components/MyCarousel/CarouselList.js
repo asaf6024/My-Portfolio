@@ -39,7 +39,9 @@ const CarouselList = (props) => {
                         <i className="fas fa-info"></i>
 
                     </button>
-                    <MDBCard className='cardOfWebsite' style={{ background: website.background }}>
+                    <MDBCard className='cardOfWebsite'
+                    //  style={{ background: website.background }}
+                    >
                         <MDBCardBody>
                             <table>
                                 <tr>
