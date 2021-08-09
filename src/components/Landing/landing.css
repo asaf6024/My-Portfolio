@@ -66,4 +66,7 @@ img.qrCodeImage {
   img.col-md-6.col-sm-12.landingImg {
     width: 200px !important;
   }
+  .animated.fadeIn.text-center {
+    margin-top: 20%;
+  }
 }
