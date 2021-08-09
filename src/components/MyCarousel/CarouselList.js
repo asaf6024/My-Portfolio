@@ -22,7 +22,7 @@ const CarouselList = (props) => {
             <div className='carouselItem'>
                 {/* <a href={website.url} target='_blank'> */}
                 {/* <a href={website.url} title={website.name} target='_blank' > */}
-                <img className='myImageInCarousel' src={website.src} alt={website.name} />
+                <img className='myImageInCarousel animation fadeInLeft' src={website.src} alt={website.name} />
                 <MDBAnimation type="bounce" delay=".3s" className="mdbAnimationButton bounce infinite">
                     <a className='btn myBtn arrow bounceButton'
                         href={website.url} title={website.url} target='_blank'>Open&nbsp;
@@ -32,7 +32,7 @@ const CarouselList = (props) => {
 
                 {/* </a> */}
                 {/* </a> */}
-                <div className='carouselData text-center'>
+                <div className='carouselData text-center animation fadeInRight'>
                     <button id='carouelRight' className="btn myBtn"
                         onClick={index => setDisplay(index)}
                     >

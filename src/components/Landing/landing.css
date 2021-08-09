@@ -8,9 +8,10 @@
 }
 img.col-md-6.col-sm-12.landingImg {
   position: absolute;
-  top: 20%;
+  top: 30%;
   right: 20%;
-  border-radius: 0.25rem !important;
+  /* border-radius: 0.25rem !important; */
+  /* border-radius: 50% !important; */
 }
 .col-sm-12.landingContent {
   position: absolute;

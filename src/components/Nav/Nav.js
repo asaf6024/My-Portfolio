@@ -6,6 +6,7 @@ const NavPage = () => {
     const [active, setACtive] = useState('activea')
     const setActive = (e) => {
 
+        // document.getElementsByClassName('collapse')[0].classList.remove('show')
         // document.querySelectorAll('.activea').forEach(e => e.classList.remove('activea'));
         // e.target.classList.add('activea')
         // setACtive('')
@@ -52,10 +53,10 @@ const NavPage = () => {
                 <a href="tel:972502820405" className='col-sm-1 navFonts' title='mobile'>
                     <i className="fas fa-phone"></i>
                 </a>
-                <a href="mailto:972502820405" className='col-sm-1' title='email'>
+                <a href="mailto:972502820405" className='col-sm-1 navFonts' title='email'>
                     <i className="far fa-envelope"></i>
                 </a>
-                <a href="https://github.com/asaf6024" target='_blank' title='github' className='col-sm-1'>
+                <a href="https://github.com/asaf6024" className='navFonts' target='_blank' title='github' className='col-sm-1'>
                     <i className="fab fa-github"></i>
                 </a>
             </Navbar.Brand>

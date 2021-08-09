@@ -4,7 +4,7 @@ const Landing = () => {
     return (
         <div className='container-fluid landingDiv'>
             <div className='container' id='landing'>
-                <MDBAnimation type="fadeIn" delay=".5s" className="text-center">
+                <MDBAnimation type="fadeIn" delay=".5s" className="text-center" data-mdb-animation-start="onHover">
                     <MDBRow>
                         <div className='col-md-6 col-sm-12 landingContent'>
                             <p style={{ fontSize: '20pt' }}> Hi, I'm Asaf!<br />
@@ -13,7 +13,7 @@ const Landing = () => {
                                 {/* Find details about my Websites, Skiils and Experience below */}
                             </p>
                         </div>
-                        <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.jpeg" alt='Asaf' />
+                        <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.png" alt='Asaf' />
                         <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownA">
                             <a href="#websites">
                                 <i className="arrow bounce text-center fas fa-angle-down"></i>

@@ -3,6 +3,16 @@ html {
   scroll-padding-bottom: 0;
 }
 
+h1,
+h2,
+h3,
+p,
+span,
+a,
+li {
+  font-family: cursive;
+}
+
 .container-fluid {
   /* background-color: #000000b0 !important; */
   /* background-color: #ff8700 !important; */
@@ -55,6 +65,7 @@ strong {
 }
 .activeNav {
   font-weight: bold !important;
+  font-size: larger;
 }
 img {
   border-radius: 0.25rem !important;
