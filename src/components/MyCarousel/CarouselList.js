@@ -28,6 +28,13 @@ const CarouselList = (props) => {
                         href={website.url} title={website.url} target='_blank'>Open&nbsp;
                         <i className="fas fa-angle-double-right"></i>
                     </a>
+                    {website.form != null &&
+                        <a className='btn myBtn arrow bounceButton'
+                            style={{ bottom: '40px' }}
+                            href={website.form} title={website.form} target='_blank'>Register&nbsp;
+                            <i className="fas fa-angle-double-right"></i>
+                        </a>
+                    }
                 </MDBAnimation>
 
                 {/* </a> */}
