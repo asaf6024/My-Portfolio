@@ -85,4 +85,8 @@ ul.react-tabs__tab-list li {
   ul.react-tabs__tab-list li {
     font-size: 10pt;
   }
+  .myCard.text-centercol-sm-4.col-md-3.col-lg-2:last-child,
+  .myCard.text-centercol-sm-4.col-md-3.col-lg-2:nth-last-child(2) {
+    margin: 0 0 15px 10px;
+  }
 }
