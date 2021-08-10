@@ -47,8 +47,18 @@ const technologies = [
     },
     {
         id: 9,
+        name: 'C#',
+        src: ('../img/logos/c_sharp.png')
+    },
+    {
+        id: 10,
         name: 'MongoDB',
         src: ('../img/logos/mongodb.png')
+    },
+    {
+        id: 11,
+        name: 'SQL Server',
+        src: ('../img/logos/sql.png')
     },
 
 

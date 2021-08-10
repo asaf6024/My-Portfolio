@@ -79,6 +79,7 @@ const Skiils = (props) => {
     const loadLibraries = () => libraries.map(library => {
         return (
             <Card
+                col='col-sm-4 col-lg-3'
                 name={library.name}
                 src={library.src}
             />
@@ -121,7 +122,6 @@ const Skiils = (props) => {
                                 <Tab>Tools & Technologies</Tab>
                                 <Tab>Operating systems</Tab>
                             </TabList>
-                            <br />
                             <br />
                             <TabPanel>
                                 <MDBRow className='col-sm-12 skillItem animated fadeIn'>

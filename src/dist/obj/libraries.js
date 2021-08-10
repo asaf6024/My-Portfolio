@@ -23,6 +23,11 @@ const libraries
         },
         {
             id: 5,
+            name: 'Google API',
+            src: ('../img/logos/google.png')
+        },
+        {
+            id: 6,
             name: 'W3',
             src: ('../img/logos//w3.png')
         },

@@ -13,7 +13,15 @@ const Landing = () => {
                                 {/* Find details about my Websites, Skiils and Experience below */}
                             </p>
                         </div>
-                        <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.png" alt='Asaf' />
+                        <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf2.png" alt='Asaf' />
+
+                        {/* <MDBAnimation type="fadeOut" delay="3.8s" className="text-center arrowDown" id="arrowDownA">
+                            <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf2.png" alt='Asaf' />
+                        </MDBAnimation>
+                        <MDBAnimation type="fadeIn" delay="2.5s" className="text-center arrowDown" id="arrowDownA">
+                            <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.png" alt='Asaf' />
+                        </MDBAnimation> */}
+
                         <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownA">
                             <a href="#websites">
                                 <i className="arrow bounce text-center fas fa-angle-down"></i>
@@ -24,7 +32,7 @@ const Landing = () => {
 
             </div>
 
-        </div>
+        </div >
     )
 }
 export default Landing

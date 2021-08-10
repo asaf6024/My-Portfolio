@@ -56,6 +56,10 @@ i {
   text-align: center;
   margin-top: 7%;
 }
+.myCard.text-centercol-sm-4.col-md-3.col-lg-2:last-child,
+.myCard.text-centercol-sm-4.col-md-3.col-lg-2:nth-last-child(2) {
+  margin: auto;
+}
 .react-tabs__tab-panel--selected {
   height: 300px !important;
 }

@@ -1,4 +1,5 @@
 import CarouselList from '../../components/MyCarousel/CarouselList'
+import MyCarousel from '../../components/MyCarousel/MyCarousel'
 import React from 'react'
 import websites from '../../dist/obj/websites'
 import './websites.css'
@@ -18,6 +19,9 @@ const Websites = (props) => {
                     <CarouselList
                         myObject={websites}
                     />
+                    {/* <MyCarousel
+                        myObject={websites}
+                    /> */}
                 </div>
             </div>
             <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownWebsites">

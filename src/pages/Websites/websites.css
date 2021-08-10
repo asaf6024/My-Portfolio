@@ -44,6 +44,7 @@ p,
   .carouselData.text-center {
     background: #212529;
     width: 100%;
+    padding: 5px !important;
   }
   .card.cardOfWebsite {
     background: none !important;

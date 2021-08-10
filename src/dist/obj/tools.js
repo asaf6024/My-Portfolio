@@ -21,18 +21,9 @@ const tools
         //     name: 'Web Service',
         //     src: ('../img/logos/webservice.png')
         // },
+
         {
-            id: 5,
-            name: 'Google API',
-            src: ('../img/logos/google.png')
-        },
-        {
-            id: 7,
-            name: 'SQL Server',
-            src: ('../img/logos/sql.png')
-        },
-        {
-            id: 7,
+            id: 4,
             name: 'XML',
             src: ('../img/logos/xml.png')
         }
