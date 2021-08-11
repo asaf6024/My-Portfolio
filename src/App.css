@@ -81,6 +81,10 @@ hr {
   color: white;
   font-size: xx-large;
 }
+.arrowDown i:hover {
+  font-size: 40pt;
+  transition: all 0.5s linear;
+}
 @media only screen and (max-width: 600px) {
   h1,
   h2,

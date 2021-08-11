@@ -1,6 +1,7 @@
 import { MDBRow, MDBAnimation } from "mdbreact"
 import './landing.css'
-const Landing = () => {
+const Landing = (props) => {
+
     return (
         <div className='container-fluid landingDiv'>
             <div className='container' id='landing'>
@@ -33,7 +34,9 @@ const Landing = () => {
 
                     <MDBAnimation type="fadeIn" delay="5.5s" className="text-center arrowDown" id="arrowDownA">
                         <a href="#websites">
-                            <i className="arrow bounce text-center fas fa-angle-down"></i>
+                            <i className="arrow bounce text-center fas fa-angle-down"
+                                onClick={() => props.setDisplay('websites')}
+                            ></i>
                         </a>
                     </MDBAnimation>
                 </MDBRow>

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
 // import { a } from "react-router-dom";
 import './nav.css'
-const NavPage = () => {
+const NavPage = (props) => {
     const [active, setACtive] = useState('activea')
     const [bgDark, setBgDark] = useState(`
     linear-gradient(
@@ -57,16 +57,16 @@ const NavPage = () => {
                         <a id='landingNavItem' href='/#landing'> Home</a>
                     </NavItem>
                     <hr className='mobileHr' />
-                    <NavItem onClick={(e) => setActive(e)}>
-                        <a id='portfolioNavItem' href='#websites'> My Portfolio</a>
+                    <NavItem>
+                        <a id='portfolioNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#websites' onClick={() => props.setFunction('websites')}> My Portfolio</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='skillsNavItem' href='#skiils'> Skiils</a>
+                        <a id='skillsNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#skiils'> Skiils</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='experienceNavItem' href='#experience'> Experience</a>
+                        <a id='experienceNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#experience'> Experience</a>
                     </NavItem>
                     {/* <NavDropdown
                         id="nav-dropdown-dark-example"

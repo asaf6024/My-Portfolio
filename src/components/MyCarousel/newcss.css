@@ -1,0 +1,62 @@
+.carouselData,
+#carouselDataDiv {
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  background: transparent;
+  z-index: 2;
+  height: 100%;
+  padding: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(83, 91, 170, 1) 0%,
+    rgba(15, 36, 55, 1) 43%,
+    rgba(0, 0, 0, 1) 100%,
+    rgba(53, 70, 49, 0.2528361686471463) 100%
+  );
+  display: none;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+}
+#carouselImg {
+  display: initial;
+}
+.websiteName {
+  position: absolute;
+  width: 70% !important;
+  z-index: 3;
+  background: #2a4776;
+  height: 50px;
+}
+.card.cardOfWebsite {
+  width: 100% !important;
+  border: none !important;
+}
+.carouselData {
+  width: 70%;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+.carousel .slide img {
+  z-index: 2;
+  /* height: initial !important; */
+}
+.carouselItem {
+  width: 70%;
+  margin: auto;
+}
+.slider-wrapper.axis-horizontal {
+  /* height: 250px; */
+  height: 450px;
+  cursor: pointer !important;
+}
+ul.slider.animated {
+  width: 100%;
+}
+.animated.bounce.mdbAnimationButton.bounce.infinite {
+  z-index: 3;
+}
+/* .carousel .slide img:hover {
+  z-index: 0 !important;
+} */

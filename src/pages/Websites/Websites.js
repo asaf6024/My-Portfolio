@@ -8,27 +8,32 @@ const Websites = (props) => {
 
     return (
         <div className='container-fluid'>
-            <div className='container' id='websites'>
-                <div className='col-sm-12 text-center'>
-                    {
-                        !props.isHome ?
-                            <h1 className>My Websites</h1>
-                            : <h2 className='display-h1'>My Portfolio</h2>
-                    }
-                    <br /><br />
-                    <CarouselList
-                        myObject={websites}
-                    />
-                    {/* <MyCarousel
+            <MDBAnimation type="fadeIn" delay="1s" className="text-center" data-mdb-animation-start="onHover">
+                <div className='container' id='websites'>
+                    <div className='col-sm-12 text-center'>
+                        {
+                            !props.isHome ?
+                                <h1 className>My Websites</h1>
+                                : <h2 className='display-h1'>My Portfolio</h2>
+                        }
+                        <br /><br />
+                        <CarouselList
+                            myObject={websites}
+                        />
+                        {/* <MyCarousel
                         myObject={websites}
                     /> */}
+                    </div>
                 </div>
-            </div>
-            <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownWebsites">
-                <a href="#skiils">
-                    <i className="arrow bounce text-center fas fa-angle-down"></i>
-                </a>
+                <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownWebsites">
+                    <a href="#skiils">
+                        <i className="arrow bounce text-center fas fa-angle-down"
+                            onClick={() => props.setDisplay('skills')}
+                        ></i>
+                    </a>
+                </MDBAnimation>
             </MDBAnimation>
+
         </div>
     )
 }

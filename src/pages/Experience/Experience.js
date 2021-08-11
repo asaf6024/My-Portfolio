@@ -5,7 +5,7 @@ const Experience = (props) => {
 
     return (
         <div className='container-fluid'>
-            <MDBAnimation type="fadeIn" delay=".5s" className="text-center">
+            <MDBAnimation type="fadeIn" delay="1s" className="text-center">
                 <div className='container' id='experience'>
                     <div className='col-sm-12 text-center'>
                         {/* <MDBRow>
