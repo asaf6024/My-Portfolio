@@ -18,10 +18,10 @@ h3 {
   margin: 0 0 15px 15px;
 }
 .myCard {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   border: 1px solid #ddd;
   border-radius: 4px;
-  margin: 15px auto;
+  margin: 10px auto;
   /* background-color: #fff; */
   color: #555;
   overflow: hidden;

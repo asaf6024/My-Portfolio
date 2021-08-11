@@ -67,7 +67,7 @@ const Home = (props) => {
                 while (active.length)
                     active[0].classList.remove("activeNav");
                 document.getElementById("skillsNavItem").classList.add("activeNav")
-                if (lastKnownScrollPosition < 2200 && lastKnownScrollPosition > 1550) {
+                if (lastKnownScrollPosition < 2200 && lastKnownScrollPosition > 1750) {
                     setRenderExperience(true)
                     document.getElementById('experienceNavItem').style.display = 'block'
                 }

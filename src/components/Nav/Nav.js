@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { Navbar, Container, Nav, NavDropdown, NavItem } from 'react-bootstrap'
+import { Navbar, Container, Nav, NavItem } from 'react-bootstrap'
+import { MDBAnimation, MDBTooltip } from 'mdbreact'
 // import { a } from "react-router-dom";
 import './nav.css'
 const NavPage = (props) => {
@@ -82,7 +83,9 @@ const NavPage = (props) => {
 
                 </Nav>
             </Navbar.Collapse>
+
             <Navbar.Brand className='col-sm-2'>
+
                 <a href="tel:972502820405" className='col-sm-1 navFonts' title='mobile'>
                     <i className="fas fa-phone"></i>
                 </a>

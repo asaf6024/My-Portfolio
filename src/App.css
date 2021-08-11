@@ -12,7 +12,9 @@ a,
 li {
   font-family: cursive;
 }
-
+.container-fluid {
+  min-height: 110vh;
+}
 .container-fluid {
   /* background-color: #000000b0 !important; */
   /* background-color: #ff8700 !important; */

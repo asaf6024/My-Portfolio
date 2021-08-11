@@ -6,7 +6,6 @@ const Landing = (props) => {
         <div className='container-fluid landingDiv'>
             <div className='container' id='landing'>
                 <MDBRow>
-
                     <div className='col-md-6 col-sm-12 landingContent'>
                         <p style={{ fontSize: '20pt' }}>
                             <MDBAnimation type="fadeIn" delay=".5s" className="text-center" data-mdb-animation-start="onHover">

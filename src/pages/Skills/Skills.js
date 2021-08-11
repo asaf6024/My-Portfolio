@@ -55,56 +55,58 @@ const Skiils = (props) => {
             <MDBAnimation type="fadeIn" delay="1s" className="text-center" data-mdb-animation-start="onHover">
 
                 <div className='container' id='skiils'>
-                    {
-                        !props.isHome ?
-                            <h1 className='text-center'>My Skills</h1>
-                            : <h2 className='display-h1 text-center'>My Skills</h2>
-                    }
-                    {/* <hr className='skillsHr' />My Portfolio */}
-                    <div className="showcase-content">
-                        <div>
-                            {/* <h1>Asaf Almog</h1> */}
+                    <div className='col-sm-12 text-center'>
+                        {
+                            !props.isHome ?
+                                <h1 className='text-center'>My Skills</h1>
+                                : <h2 className='display-h1 text-center'>My Skills</h2>
+                        }
+                        {/* <hr className='skillsHr' />My Portfolio */}
+                        <div className="showcase-content">
+                            <div>
+                                {/* <h1>Asaf Almog</h1> */}
 
-                            <Tabs className='text-center'>
-                                <TabList>
-                                    <Tab>Web development</Tab>
-                                    <Tab>Web libraries</Tab>
-                                    <Tab>Tools & Technologies</Tab>
-                                    <Tab>Operating systems</Tab>
-                                </TabList>
-                                <br />
-                                <TabPanel>
-                                    <MDBRow className='col-sm-12 skillItem animated fadeIn'>
-                                        <h3 className='text-center'>Web development</h3>
-                                        {loadTechnologies()}
-                                    </MDBRow>
-                                </TabPanel>
+                                <Tabs className='text-center'>
+                                    <TabList>
+                                        <Tab>Web development</Tab>
+                                        <Tab>Web libraries</Tab>
+                                        <Tab>Tools & Technologies</Tab>
+                                        <Tab>Operating systems</Tab>
+                                    </TabList>
+                                    <br />
+                                    <TabPanel>
+                                        <MDBRow className='col-sm-12 skillItem animated fadeIn'>
+                                            <h3 className='text-center'>Web development</h3>
+                                            {loadTechnologies()}
+                                        </MDBRow>
+                                    </TabPanel>
 
-                                <TabPanel>
-                                    <MDBRow className='col-sm-12 skillItem animated fadeInUp'>
-                                        <h3 className='text-center'>Web libraries</h3>
-                                        {loadLibraries()}
-                                    </MDBRow>
-                                </TabPanel>
+                                    <TabPanel>
+                                        <MDBRow className='col-sm-12 skillItem animated fadeInUp'>
+                                            <h3 className='text-center'>Web libraries</h3>
+                                            {loadLibraries()}
+                                        </MDBRow>
+                                    </TabPanel>
 
-                                <TabPanel>
-                                    <MDBRow className='col-sm-12 skillItem animated fadeInLeft'>
-                                        <h3 className='text-center'>  Tools & Technologies</h3>
-                                        {loadTools()}
-                                    </MDBRow>
-                                </TabPanel>
+                                    <TabPanel>
+                                        <MDBRow className='col-sm-12 skillItem animated fadeInLeft'>
+                                            <h3 className='text-center'>  Tools & Technologies</h3>
+                                            {loadTools()}
+                                        </MDBRow>
+                                    </TabPanel>
 
-                                <TabPanel>
-                                    <MDBRow className='col-sm-12 skillItem animated fadeInRight'>
-                                        <h3 className='text-center'> Operating systems</h3>
-                                        {loadSystems()}
-                                    </MDBRow>
-                                </TabPanel>
-                            </Tabs>
-
-
+                                    <TabPanel>
+                                        <MDBRow className='col-sm-12 skillItem animated fadeInRight'>
+                                            <h3 className='text-center'> Operating systems</h3>
+                                            {loadSystems()}
+                                        </MDBRow>
+                                    </TabPanel>
+                                </Tabs>
 
 
+
+
+                            </div>
                         </div>
                     </div>
                 </div >
