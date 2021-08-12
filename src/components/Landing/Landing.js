@@ -13,7 +13,7 @@ const Landing = (props) => {
                                 Hi, I'm Asaf!<br />
                             </MDBAnimation>
                             <MDBAnimation type="fadeInLeft" delay="2s" className="text-center" data-mdb-animation-start="onHover">
-                                I'm a <b>Front End Developer</b> who specializes in <br />
+                                I'm a <b>Front End Developer</b> that specializes in <br />
                                 <span className='font-italic'>React, JavaScript, Css</span> and more..<br />
                                 {/* Find details about my Websites, Skiils and Experience below */}
                             </MDBAnimation>
