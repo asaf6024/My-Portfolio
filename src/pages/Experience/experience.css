@@ -44,6 +44,12 @@ h1 {
   border: 0;
   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
 }
+.experienceLinks {
+  text-decoration: underline !important;
+}
+.experienceTechnologies {
+  font-weight: bolder;
+}
 /* .cardOfMe h2,
 li {
   color: black !important;

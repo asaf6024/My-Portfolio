@@ -1,6 +1,9 @@
+import React, { useState } from "react"
 import { MDBRow, MDBAnimation } from "mdbreact"
 import './landing.css'
 const Landing = (props) => {
+    const [startText, setStartText] = useState(`Let's Start`)
+    const [display, setDisplay] = useState(true)
 
     return (
         <div className='container-fluid landingDiv'>
@@ -31,12 +34,44 @@ const Landing = (props) => {
                             <img className='col-md-6 col-sm-12 landingImg' src="img/Asaf.png" alt='Asaf' />
                         </MDBAnimation> */}
 
+
                     <MDBAnimation type="fadeIn" delay="5.5s" className="text-center arrowDown" id="arrowDownA">
                         <a href="#websites">
                             <i className="arrow bounce text-center fas fa-angle-down"
-                                onClick={() => props.setDisplay('websites')}
-                            ></i>
+                                onClick={() => {
+                                    props.setDisplay('websites')
+                                    setStartText(``)
+                                    setDisplay(false)
+                                }}
+                            ><h3>{startText}</h3>
+                            </i>
                         </a>
+                        {/* {
+                            display ?
+                                <a href="#websites">
+                                    <i className="arrow bounce text-center fas fa-angle-down"
+                                        onClick={() => {
+                                            props.setDisplay('websites')
+                                            setStartText(``)
+                                            setDisplay(false)
+                                        }}
+                                    ><h3>{startText}</h3>
+                                    </i>
+                                </a>
+
+                                :
+                                <>
+                                    <h3>{startText}</h3>
+                                    <a href="tel:972502820405" className='col-sm-1 navFonts' title='mobile'>
+                                        <i className="fas fa-phone"></i>
+                                    </a>
+                                    <a href="mailto:972502820405" className='col-sm-1 navFonts' title='email'>
+                                        <i className="far fa-envelope"></i>
+                                    </a>
+                                </>
+                        } */}
+
+
                     </MDBAnimation>
                 </MDBRow>
 

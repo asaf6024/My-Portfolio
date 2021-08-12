@@ -13,10 +13,10 @@ const Websites = (props) => {
                     <div className='col-sm-12 text-center'>
                         {
                             !props.isHome ?
-                                <h1 className>My Websites</h1>
-                                : <h2 className='display-h1'>My Portfolio</h2>
+                                <h1 className='sectionHeadline'>My Websites</h1>
+                                : <h2 className='display-h1 sectionHeadline'>My Portfolio</h2>
                         }
-                        <br /><br />
+                        <br />
                         <CarouselList
                             myObject={websites}
                         />

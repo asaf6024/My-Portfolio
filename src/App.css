@@ -46,7 +46,9 @@ strong {
   font-size: 50px !important;
   line-height: 1.2 !important;
 }
-
+.sectionHeadline {
+  margin-top: 2%;
+}
 /* .container-fluid:nth-child(even) {
   background: rgb(0, 0, 0);
   background: linear-gradient(

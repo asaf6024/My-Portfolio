@@ -61,7 +61,6 @@ img.qrCodeImage {
     margin-top: 10%;
   }
 }
-
 @media only screen and (max-width: 720px) {
   img.col-md-6.col-sm-12.landingImg {
     width: 200px !important;

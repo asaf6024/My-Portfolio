@@ -59,7 +59,7 @@ const Skiils = (props) => {
                         {
                             !props.isHome ?
                                 <h1 className='text-center'>My Skills</h1>
-                                : <h2 className='display-h1 text-center'>My Skills</h2>
+                                : <h2 className='display-h1 text-center sectionHeadline'>My Skills</h2>
                         }
                         {/* <hr className='skillsHr' />My Portfolio */}
                         <div className="showcase-content">
