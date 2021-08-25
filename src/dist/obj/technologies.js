@@ -1,7 +1,7 @@
 const technologies = [
     {
         id: 1,
-        name: 'React',
+        name: 'React JS',
         src: ('../img/logos/react.png')
     }
     ,

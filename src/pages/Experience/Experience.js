@@ -27,7 +27,7 @@ const Experience = (props) => {
                                 <div className='itemOfExperience'>
                                     <li><strong>2020-2021 - Personal Projects</strong></li>
                                     <span>
-                                        Develop Websites using:<span className='font-italic experienceTechnologies'> React, JavaScript, Sass, Bootstrap</span>
+                                        Develop Websites using:<span className='font-italic experienceTechnologies'> React JS, Redux, JavaScript, Css, Sass, Bootstrap</span>
                                     </span>
                                 </div>
 
@@ -56,7 +56,9 @@ const Experience = (props) => {
 
                             </ul>
                         </div>
+
                     </div>
+
                     <MDBAnimation type="fadeIn" delay=".8s" className="text-center arrowDown" id="arrowDownB">
                         <a href="#landing">
                             <i className="arrow bounce text-center fas fa-angle-up"></i>
