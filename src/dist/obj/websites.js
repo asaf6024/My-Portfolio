@@ -43,20 +43,20 @@ const websites = [
         background: '#212529',
         login: null
     },
-    {
-        id: 4,
-        name: 'News Api',
-        src: '../img/websites/articles.jpg',
-        url: 'https://my-api-website.netlify.app/',
-        form: null,
-        github: 'https://github.com/asaf6024/News-Api',
-        technologies: ['React JS (Redux, Hooks)', 'JavaScript', 'Rest Api'],
-        year: '2021',
-        frame: 'Personal Project',
-        description: null,
-        background: '#212529',
-        login: null
-    },
+    // {
+    //     id: 4,
+    //     name: 'News Api',
+    //     src: '../img/websites/articles.jpg',
+    //     url: 'https://my-api-website.netlify.app/',
+    //     form: null,
+    //     github: 'https://github.com/asaf6024/News-Api',
+    //     technologies: ['React JS (Redux, Hooks)', 'JavaScript', 'Rest Api'],
+    //     year: '2021',
+    //     frame: 'Personal Project',
+    //     description: null,
+    //     background: '#212529',
+    //     login: null
+    // },
     {
         id: 5,
         name: 'Meme Generator',
