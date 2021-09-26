@@ -15,9 +15,22 @@ const websites = [
         background: 'transparent',
         login: null
     },
-
     {
         id: 2,
+        name: 'Weather Forecast',
+        src: '../img/websites/weather.jpg',
+        url: 'https://weather-forecast-asaf.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/Weather-Forecast',
+        technologies: ['React-Redux', 'React-Hooks', 'Lodash', `AccuWeather API (3 API's)`, 'Geolocation API'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: `Using 4 different API's`,
+        background: '#212529',
+        login: null
+    },
+    {
+        id: 3,
         name: 'E-Commerce demo',
         src: '../img/websites/ecommerce.jpg',
         url: 'https://e-commerce-asaf.netlify.app/',
@@ -31,7 +44,7 @@ const websites = [
         login: null
     },
     {
-        id: 3,
+        id: 4,
         name: 'News Api',
         src: '../img/websites/articles.jpg',
         url: 'https://my-api-website.netlify.app/',
@@ -45,7 +58,7 @@ const websites = [
         login: null
     },
     {
-        id: 4,
+        id: 5,
         name: 'Meme Generator',
         src: '../img/websites/meme.jpg',
         url: 'https://meme-generator-asaf.netlify.app/',
@@ -73,7 +86,7 @@ const websites = [
     //     login: null
     // },
     {
-        id: 5,
+        id: 6,
         name: 'Sass Website',
         src: '../img/websites/sass.jpg',
         url: 'https://my-sass-website.netlify.app/',
@@ -87,7 +100,7 @@ const websites = [
         login: null
     },
     {
-        id: 6,
+        id: 7,
         name: 'Company Website',
         src: '../img/websites/eventact.jpg',
         url: 'https://eventact.com/',
@@ -101,7 +114,7 @@ const websites = [
         login: null
     },
     {
-        id: 7,
+        id: 8,
         name: 'HP Event Website',
         src: '../img/websites/hp.jpg',
         url: 'https://ws.eventact.com/vipevent',
@@ -115,7 +128,7 @@ const websites = [
         login: null
     },
     {
-        id: 8,
+        id: 9,
         name: 'Employees Website',
         src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
@@ -130,7 +143,7 @@ const websites = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: 'Customers help Website',
         src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
@@ -144,7 +157,7 @@ const websites = [
         login: null
     },
     {
-        id: 10,
+        id: 11,
         name: 'Registration System',
         src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
@@ -158,7 +171,7 @@ const websites = [
         login: null
     },
     {
-        id: 11,
+        id: 12,
         name: 'Final Project Website & App',
         src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',
