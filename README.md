@@ -1,4 +1,4 @@
-# MyPortfolio
+# My Portfolio
 ##  [Live Demo](https://my-portfolio-asaf.netlify.app/)
 
 A simple React app that displays my portfolio, skiils and experience
