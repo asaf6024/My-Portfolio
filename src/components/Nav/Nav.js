@@ -89,7 +89,7 @@ const NavPage = (props) => {
                 <a href="tel:972502820405" className='col-sm-1 navFonts' title='mobile'>
                     <i className="fas fa-phone"></i>
                 </a>
-                <a href="mailto:972502820405" className='col-sm-1 navFonts' title='email'>
+                <a href="mailto:asafalmog119@gmail.com" className='col-sm-1 navFonts' title='email'>
                     <i className="far fa-envelope"></i>
                 </a>
                 <a href="https://github.com/asaf6024" className='navFonts' target='_blank' title='github' className='col-sm-1'>
