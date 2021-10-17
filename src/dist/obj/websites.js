@@ -85,8 +85,24 @@ const websites = [
     //     background: '#8a2be2',
     //     login: null
     // },
+
+
     {
         id: 6,
+        name: 'Styled-Components',
+        src: '../img/websites/styled-components.JPG',
+        url: 'https://styled-component-asaf.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/styled-components',
+        technologies: ['styled-components', 'Css', 'React'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: null,
+        background: '#fd7e14',
+        login: null
+    },
+    {
+        id: 7,
         name: 'Sass Website',
         src: '../img/websites/sass.jpg',
         url: 'https://my-sass-website.netlify.app/',
@@ -100,7 +116,7 @@ const websites = [
         login: null
     },
     {
-        id: 7,
+        id: 8,
         name: 'Company Website',
         src: '../img/websites/eventact.jpg',
         url: 'https://eventact.com/',
@@ -114,7 +130,7 @@ const websites = [
         login: null
     },
     {
-        id: 8,
+        id: 9,
         name: 'HP Event Website',
         src: '../img/websites/hp.jpg',
         url: 'https://ws.eventact.com/vipevent',
@@ -128,7 +144,7 @@ const websites = [
         login: null
     },
     {
-        id: 9,
+        id: 10,
         name: 'Employees Website',
         src: '../img/websites/technicians.jpg',
         url: 'http://regye.com/tech2/',
@@ -143,7 +159,7 @@ const websites = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: 'Customers help Website',
         src: '../img/websites/customers.jpg',
         url: 'https://help.eventact.com/he',
@@ -157,7 +173,7 @@ const websites = [
         login: null
     },
     {
-        id: 11,
+        id: 12,
         name: 'Registration System',
         src: '../img/websites/office.jpg',
         url: 'https://office.eventact.com',
@@ -171,7 +187,7 @@ const websites = [
         login: null
     },
     {
-        id: 12,
+        id: 13,
         name: 'Final Project Website & App',
         src: '../img/websites/fixme.jpg',
         url: 'http://proj.ruppin.ac.il/bgroup46/test1/WEB/Login.aspx',
