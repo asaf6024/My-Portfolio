@@ -8,7 +8,7 @@ const websites = [
         github: null,
         // technologies: ['React (Redux, Hooks)', 'React-Bootstrap', 'mdbReact', 'Web Api', 'CSS', 'MongoDB', ' Node.js', 'Axios'],
         technologies: ['React JS (Redux, Hooks, Axios)', 'MongoDB', ' Node.js', 'Express.js', 'mdbReact'],
-        year: '2021',
+        year: '2020-2021',
         frame: 'Personal Project',
         description: `A website for my family's farmer`,
         // background: 'linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 121, 59) 68%, rgb(0 212 255 / 16%))',
