@@ -71,20 +71,20 @@ const websites = [
         background: 'linear-gradient(90deg,rgb(94 120 88 / 25%) 0%,rgb(78 81 114) 0%,rgb(124 55 55) 23%,rgba(15, 36, 55, 1) 74%)',
         login: null
     },
-    // {
-    //     id: 5,
-    //     name: 'React Redux website',
-    //     src: '../img/websites/bakery.jpg',
-    //     url: 'https://bakery-shop-redux.netlify.app/',
-    //     form: null,
-    //     github: 'https://github.com/asaf6024/Bakery-Shop-Redux',
-    //     technologies: ['React-Redux', 'Axios', 'Bootstrap'],
-    //     year: '2021',
-    //     frame: 'Personal Project',
-    //     description: null,
-    //     background: '#8a2be2',
-    //     login: null
-    // },
+    {
+        id: 14,
+        name: `ATM's in Israel`,
+        src: '../img/websites/findATM.JPG',
+        url: 'https://find-atm-asaf.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/Find-ATM',
+        technologies: ['React JS', 'Material UI', 'Google Autocomplete API', `gov.il ATM's API`],
+        year: '2021',
+        frame: 'Personal Project',
+        description: '**Run Chrome browser without CORS** to run this App ',
+        background: '#8a2be2',
+        login: null
+    },
 
 
     {
