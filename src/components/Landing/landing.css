@@ -1,6 +1,7 @@
 .landingDiv {
   min-height: 100vh;
 }
+
 .landingImg {
   width: 300px !important;
   height: inherit;
@@ -9,13 +10,14 @@
 img.col-md-6.col-sm-12.landingImg {
   position: absolute;
   top: 20%;
-  right: 20%;
+  right: 10%;
   /* border-radius: 0.25rem !important; */
   /* border-radius: 50% !important; */
 }
 .col-sm-12.landingContent {
   position: absolute;
-  top: 40%;
+  top: 30%;
+  left: 15%;
   margin: -25px 0 0 -25px;
 }
 .landingContent {
@@ -27,7 +29,19 @@ img.col-md-6.col-sm-12.landingImg {
   text-align: center;
   margin-top: 45%;
 }
-
+.caracteristics {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: row;
+}
+.caracteristics .caracteristicsDivs {
+  flex: 1;
+}
+.caracteristics .caracteristicsDivs p {
+  font-size: large;
+}
 .bounce {
   -webkit-animation: bounce 5s infinite;
   animation: bounce 5s infinite;
@@ -64,11 +78,17 @@ img.qrCodeImage {
 @media only screen and (max-width: 720px) {
   img.col-md-6.col-sm-12.landingImg {
     width: 200px !important;
+    margin-right: 23%;
   }
   .landingImgDiv {
     margin-top: 0 !important;
   }
   .animated.fadeIn.text-center {
     margin-top: 20%;
+  }
+  .caracteristics {
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
   }
 }
