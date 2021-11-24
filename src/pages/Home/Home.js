@@ -7,9 +7,9 @@ import { useHistory } from "react-router-dom";
 
 const Home = (props) => {
     let lastKnownScrollPosition = 0;
-    const [renderWebsites, setRenderWebsites] = useState(false)
-    const [renderSkills, setRenderSkills] = useState(false)
-    const [renderExperience, setRenderExperience] = useState(false)
+    const [renderWebsites, setRenderWebsites] = useState(true)
+    const [renderSkills, setRenderSkills] = useState(true)
+    const [renderExperience, setRenderExperience] = useState(true)
     let history = useHistory();
 
     useEffect(() => {

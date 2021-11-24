@@ -1,7 +1,8 @@
 .nav-item {
   color: #fff;
   margin: auto;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  padding: 0 15px 0 15px;
 }
 a,
 i.fas.fa-phone,
@@ -71,6 +72,7 @@ a:hover {
   }
   .nav-item {
     margin: 10px auto;
+    padding: 0px 0px 0px 0px;
   }
   /* a.col-sm-2.navbar-brand {
     top: 0;

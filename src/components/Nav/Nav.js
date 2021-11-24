@@ -55,19 +55,19 @@ const NavPage = (props) => {
             <Navbar.Collapse id="navbar-dark-example" className='col-sm-9 text-center'>
                 <Nav >
                     <NavItem className='activeNav' onClick={(e) => setActive(e)}>
-                        <a id='landingNavItem' href='/#landing'> Home</a>
+                        <a id='landingNavItem' href='/#landing'> About Me</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem>
-                        <a id='portfolioNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#websites' onClick={() => props.setFunction('websites')}> My Portfolio</a>
+                        <a id='portfolioNavItem' className='animated fadeInRight' href='#websites' onClick={() => props.setFunction('websites')}> My Portfolio</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='skillsNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#skiils'> Skiils</a>
+                        <a id='skillsNavItem' className='animated fadeInRight' href='#skiils'> Skiils</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='experienceNavItem' style={{ display: 'none' }} className='animated fadeInRight' href='#experience'> Experience</a>
+                        <a id='experienceNavItem' className='animated fadeInRight' href='#experience'> Experience</a>
                     </NavItem>
                     {/* <NavDropdown
                         id="nav-dropdown-dark-example"
