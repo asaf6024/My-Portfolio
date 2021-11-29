@@ -22,10 +22,10 @@ const websites = [
         url: 'https://weather-forecast-asaf.netlify.app/',
         form: null,
         github: 'https://github.com/asaf6024/Weather-Forecast',
-        technologies: ['React-Redux', 'React-Hooks', 'Lodash', `AccuWeather API (3 API's)`, 'Geolocation API'],
+        technologies: ['React-Redux', 'React-Hooks', 'Lodash', `AccuWeather API (3 APIs)`, 'Geolocation API'],
         year: '2021',
         frame: 'Personal Project',
-        description: `Using 4 different API's`,
+        description: `Using 4 different APIs`,
         background: '#212529',
         login: null
     },
