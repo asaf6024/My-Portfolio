@@ -30,6 +30,18 @@ const websites = [
         login: null
     },
     {
+        id: 15,
+        name: 'Spotify Playlists Globally',
+        src: '../img/websites/spotify.JPG',
+        url: 'https://spotify-platylists-asaf.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/Spotify-Playlists',
+        technologies: ['React JS', 'Spotify APIs', 'JavaScript', 'Bootstrap'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: 'Using 4 different APIs',
+    },
+    {
         id: 3,
         name: 'E-Commerce demo',
         src: '../img/websites/ecommerce.jpg',
