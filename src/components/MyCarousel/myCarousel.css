@@ -106,7 +106,9 @@ li.thumb.selected {
   z-index: 0;
   width: 100%;
 }
-
+i.fab.fa-github.fa-2x:hover {
+  opacity: 0.8;
+}
 @media only screen and (max-width: 1200px) {
   .carousel .slide img {
     width: 300px !important;

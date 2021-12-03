@@ -91,4 +91,12 @@ img.qrCodeImage {
     flex-direction: column;
     align-items: center;
   }
+  .caracteristics .caracteristicsDivs {
+    padding-bottom: 15px;
+  }
+  .caracteristics .caracteristicsDivs > p,
+  .caracteristics .caracteristicsDivs > i {
+    display: inline-block;
+    margin: 0 15px 0 15px;
+  }
 }

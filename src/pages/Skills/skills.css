@@ -68,6 +68,10 @@ ul.react-tabs__tab-list {
   width: max-content;
   margin: auto;
   border-bottom: none !important;
+  border-radius: 5px;
+}
+.react-tabs__tab--selected {
+  border-radius: 5px !important;
 }
 ul.react-tabs__tab-list li {
   padding: 15px !important;
