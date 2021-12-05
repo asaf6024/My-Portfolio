@@ -49,7 +49,7 @@ const NavPage = (props) => {
     return (
         <Navbar variant="dark" bg="dark" style={{ background: bgDark }} expand="lg" className='col-sm-12' id='navBar'>
             {/* <Container > */}
-            <Navbar.Brand href="/" className='col-sm-1 navLogo'><img src='./img/navLogo.png' style={{ color: 'white' }}
+            <Navbar.Brand href="/" className='col-sm-1 navLogo'><img src='./img/navLogo2.png' style={{ color: 'white' }}
                 width='80'
             /></Navbar.Brand>
             <Navbar.Brand href="/" className='col-sm-1'>Asaf Almog</Navbar.Brand>
