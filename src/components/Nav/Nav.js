@@ -49,10 +49,13 @@ const NavPage = (props) => {
     return (
         <Navbar variant="dark" bg="dark" style={{ background: bgDark }} expand="lg" className='col-sm-12' id='navBar'>
             {/* <Container > */}
-            {/* <Navbar.Brand href="/" className='col-sm-1'>My Portfolio</Navbar.Brand> */}
+            <Navbar.Brand href="/" className='col-sm-1 navLogo'><img src='./img/navLogo.png' style={{ color: 'white' }}
+                width='80'
+            /></Navbar.Brand>
             <Navbar.Brand href="/" className='col-sm-1'>Asaf Almog</Navbar.Brand>
+
             <Navbar.Toggle aria-controls="navbar-dark-example" />
-            <Navbar.Collapse id="navbar-dark-example" className='col-sm-9 text-center'>
+            <Navbar.Collapse id="navbar-dark-example" className='col-sm-8 text-center'>
                 <Nav >
                     <NavItem className='activeNav' onClick={(e) => setActive(e)}>
                         <a id='landingNavItem' href='/#landing'> About Me</a>

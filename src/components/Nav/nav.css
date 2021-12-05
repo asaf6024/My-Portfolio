@@ -85,4 +85,13 @@ a:hover {
   .mobileHr {
     display: block;
   }
+  .navLogo {
+    right: 50px !important;
+    position: absolute !important;
+    top: 0;
+    width: 50px !important;
+  }
+  .navLogo img {
+    width: 50px;
+  }
 }
