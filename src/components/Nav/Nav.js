@@ -5,6 +5,7 @@ import { MDBAnimation, MDBTooltip } from 'mdbreact'
 import './nav.css'
 const NavPage = (props) => {
     const [active, setACtive] = useState('activea')
+    const [navLogoWidth, setNavLogoWidth] = useState('80')
     const [bgDark, setBgDark] = useState(`
     linear-gradient(
         90deg,
@@ -25,8 +26,10 @@ const NavPage = (props) => {
     const handleScroll = () => {
         if (window.scrollY > 40) {
             setBgDark('#212529')
+            setNavLogoWidth('60')
             // document.getElementById('navBar').style.background = '#212529'
         } else {
+            setNavLogoWidth('80')
             setBgDark(`
             linear-gradient(
                 90deg,
@@ -49,8 +52,9 @@ const NavPage = (props) => {
     return (
         <Navbar variant="dark" bg="dark" style={{ background: bgDark }} expand="lg" className='col-sm-12' id='navBar'>
             {/* <Container > */}
-            <Navbar.Brand href="/" className='col-sm-1 navLogo'><img src='./img/navLogo2.png' style={{ color: 'white' }}
-                width='80'
+            <Navbar.Brand href="/" className='col-sm-1 navLogo'><img src='./img/navLogo2.png'
+                style={{ color: 'white', transition: ' width 0.5s ease-in-out' }}
+                width={navLogoWidth}
             /></Navbar.Brand>
             <Navbar.Brand href="/" className='col-sm-1'>Asaf Almog</Navbar.Brand>
 
@@ -62,15 +66,15 @@ const NavPage = (props) => {
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem>
-                        <a id='portfolioNavItem' className='animated fadeInRight' href='#websites' onClick={() => props.setFunction('websites')}> My Portfolio</a>
+                        <a id='portfolioNavItem' className='animated fadeIn' href='#websites' onClick={() => props.setFunction('websites')}> My Portfolio</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='skillsNavItem' className='animated fadeInRight' href='#skiils'> Skiils</a>
+                        <a id='skillsNavItem' className='animated fadeIn' href='#skiils'> Skiils</a>
                     </NavItem>
                     <hr className='mobileHr' />
                     <NavItem onClick={(e) => setActive(e)}>
-                        <a id='experienceNavItem' className='animated fadeInRight' href='#experience'> Experience</a>
+                        <a id='experienceNavItem' className='animated fadeIn' href='#experience'> Experience</a>
                     </NavItem>
                     {/* <NavDropdown
                         id="nav-dropdown-dark-example"
