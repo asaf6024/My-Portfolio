@@ -42,20 +42,6 @@ const websites = [
         description: 'Using 4 different APIs',
     },
     {
-        id: 3,
-        name: 'Tic Tac Toe',
-        src: '../img/websites/ticTacToe.jpg',
-        url: 'https://tictactoe-asaf.netlify.app/',
-        form: null,
-        github: 'https://github.com/asaf6024/Tic-Tac-Toe',
-        technologies: ['React', 'JavaScript', 'bootstrap'],
-        year: '2021',
-        frame: 'Personal Project',
-        description: 'A Tic Tac Toe game.',
-        background: '#212529',
-        login: null
-    },
-    {
         id: 4,
         name: 'E-Commerce demo',
         src: '../img/websites/ecommerce.jpg',
@@ -66,6 +52,20 @@ const websites = [
         year: '2021',
         frame: 'Personal Project',
         description: null,
+        background: '#212529',
+        login: null
+    },
+    {
+        id: 3,
+        name: 'Tic Tac Toe',
+        src: '../img/websites/ticTacToe.jpg',
+        url: 'https://tictactoe-asaf.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/Tic-Tac-Toe',
+        technologies: ['React JS', 'JavaScript', 'Bootstrap'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: 'A Tic Tac Toe game.',
         background: '#212529',
         login: null
     },
