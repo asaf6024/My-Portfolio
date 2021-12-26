@@ -31,6 +31,20 @@ const websites = [
     },
     {
         id: 15,
+        name: 'The Breaking Bad',
+        src: '../img/websites/breaking_bad.jpg',
+        url: 'https://the-breaking-bad-episodes.netlify.app/',
+        form: null,
+        github: 'https://github.com/asaf6024/The-Breaking-Bad',
+        technologies: ['React-Redux', 'JavaScript', 'Bootstrap', 'The Breaking Bad API'],
+        year: '2021',
+        frame: 'Personal Project',
+        description: 'All Episodes and Characters of The Breaking Bad',
+        background: '#212529',
+        login: null
+    },
+    {
+        id: 15,
         name: 'Spotify Playlists Globally',
         src: '../img/websites/spotify.JPG',
         url: 'https://spotify-platylists-asaf.netlify.app/',
