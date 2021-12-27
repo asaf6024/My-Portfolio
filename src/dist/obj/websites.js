@@ -10,7 +10,7 @@ const websites = [
         technologies: ['React JS (Redux, Hooks, Axios)', 'MongoDB', ' Node.js', 'Express.js', 'mdbReact'],
         year: '2020-2021',
         frame: 'Personal Project',
-        description: `A website for my family's farmer`,
+        description: `A website for my family's farm`,
         // background: 'linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 121, 59) 68%, rgb(0 212 255 / 16%))',
         background: 'transparent',
         login: null
