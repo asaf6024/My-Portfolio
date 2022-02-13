@@ -83,10 +83,10 @@ p.carousel-status {
 .carousel .control-prev.control-arrow:before {
   border-right: 8px solid black !important;
 }
-button.control-arrow.control-prev,
+/* button.control-arrow.control-prev,
 button.control-arrow.control-next {
   height: 400px;
-}
+} */
 
 /* .carousel.carousel-slider .control-arrow:hover {
   background: none !important;
