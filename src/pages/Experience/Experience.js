@@ -25,6 +25,14 @@ const Experience = (props) => {
 
                             <ul>
                                 <div className='itemOfExperience'>
+                                    <li><strong>2021-2022 - Front End Developer at <a className='font-italic experienceLinks'
+                                        title='https://www.mobitti.com/' href='https://www.mobitti.com/' target="_blank">Mobitti
+                                    </a></strong></li>
+                                    <span>
+                                        Develop Websites using:<span className='font-italic experienceTechnologies'> React JS, Redux (Saga & Thunk), Vue.js, Vanila JS, Css, Sass, Bootstrap</span>
+                                    </span>
+                                </div>
+                                <div className='itemOfExperience'>
                                     <li><strong>2020-2021 - Personal Projects</strong></li>
                                     <span>
                                         Develop Websites using:<span className='font-italic experienceTechnologies'> React JS, Redux, JavaScript, Css, Sass, Bootstrap</span>

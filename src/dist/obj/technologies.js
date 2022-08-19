@@ -1,15 +1,5 @@
 const technologies = [
     {
-        id: 1,
-        name: 'HTML 5',
-        src: ('../img/logos/html.png')
-    },
-    {
-        id: 2,
-        name: 'Css 3',
-        src: ('../img/logos/css.png')
-    },
-    {
         id: 3,
         name: 'JavaScript ES6',
         src: ('../img/logos/js.png')
@@ -35,6 +25,16 @@ const technologies = [
         src: ('../img/logos/node.png')
     },
     {
+        id: 1,
+        name: 'HTML 5',
+        src: ('../img/logos/html.png')
+    },
+    {
+        id: 2,
+        name: 'Css 3',
+        src: ('../img/logos/css.png')
+    },
+    {
         id: 7,
         name: 'SASS',
         src: ('../img/logos/sass.png')
@@ -50,10 +50,15 @@ const technologies = [
         src: ('../img/logos/angular.png')
     },
     {
-        id: 10,
-        name: 'C#',
-        src: ('../img/logos/c_sharp.png')
+        id: 13,
+        name: 'Vue.js',
+        src: ('../img/logos/vue.png')
     },
+    // {
+    //     id: 10,
+    //     name: 'C#',
+    //     src: ('../img/logos/c_sharp.png')
+    // },
     {
         id: 11,
         name: 'MongoDB',

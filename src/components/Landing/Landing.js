@@ -16,15 +16,18 @@ const Landing = (props) => {
                                 Hi, I'm Asaf!<br />
                             </MDBAnimation>
                             <MDBAnimation type="fadeInLeft" delay="1.5s" className="text-center" data-mdb-animation-start="onHover">
-                                I'm a <b>Front End Developer</b> that specializes in <br />
-                                <span className='font-italic'>React JS, JavaScript, Css</span> and more..<br />
+                                I'm a <b>Front End Developer.</b> <br /><br />
+                                Well-versed in numerous programming languages including
+                                <br />
+
+                                <span className='font-italic'>React JS, Vue.js, JavaScript, Css</span> and more..<br />
                                 {/* Find details about my Websites, Skiils and Experience below */}
                             </MDBAnimation>
 
                             <MDBAnimation type="fadeIn" delay="4.5s" className="text-center" data-mdb-animation-start="onHover">
                                 <div className='caracteristics'>
                                     <div className='caracteristicsDivs'>
-                                        <p>2 Years of <br />Experince</p>
+                                        <p>3 Years of <br />Experince</p>
                                         <i className="fas fa-briefcase fa-2x"></i>
                                     </div>
                                     <div className='caracteristicsDivs'>

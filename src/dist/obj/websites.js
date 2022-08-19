@@ -8,11 +8,25 @@ const websites = [
         github: null,
         // technologies: ['React (Redux, Hooks)', 'React-Bootstrap', 'mdbReact', 'Web Api', 'CSS', 'MongoDB', ' Node.js', 'Axios'],
         technologies: ['React JS (Redux, Hooks, Axios)', 'MongoDB', ' Node.js', 'Express.js', 'mdbReact'],
-        year: '2020-2021',
+        year: '2020-2022',
         frame: 'Personal Project',
         description: `A website for my family's farm`,
         // background: 'linear-gradient(90deg, rgb(2, 0, 36), rgb(9, 121, 59) 68%, rgb(0 212 255 / 16%))',
         background: 'transparent',
+        login: null
+    },
+    {
+        id: 17,
+        name: 'EasyTest',
+        src: '../img/websites/driving.png',
+        url: 'https://easy-test-israel.herokuapp.com/',
+        form: null,
+        github: 'https://github.com/nir11/EasyTest',
+        technologies: ['React JS (Redux, Hooks, Axios)', 'Bootstrap', 'Node.js', `Express`, 'MongoDB, Geolocation API, Google Maps'],
+        year: '2022',
+        frame: 'Personal Project',
+        description: `Making an appointment for a Llicensing Test `,
+        background: '#212529',
         login: null
     },
     {
@@ -44,7 +58,7 @@ const websites = [
         login: null
     },
     {
-        id: 15,
+        id: 16,
         name: 'Spotify Playlists Globally',
         src: '../img/websites/spotify.JPG',
         url: 'https://spotify-platylists-asaf.netlify.app/',
