@@ -3,11 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import Nav from "./components/Nav/Nav";
 import Home from "./pages/Home/Home";
-
 import Footer from "./components/Footer/Footer";
-
-// Redirect immediately before rendering anything
-window.location.replace("https://asafalmog.dev/");
 
 function App() {
   const [navItemCicked, setNavItemCicked] = useState(null);
